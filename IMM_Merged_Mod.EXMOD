@@ -54,48 +54,44 @@
             "Rank": 12
         },
         {
-            "ModName": "laanp-PowerSurge_v1_w116",
+            "ModName": "MinorTweaks",
             "Rank": 13
         },
         {
-            "ModName": "MinorTweaks",
+            "ModName": "MXC_Cot",
             "Rank": 14
         },
         {
-            "ModName": "MXC_Cot",
+            "ModName": "Remove_G_Slot_Restrictions",
             "Rank": 15
         },
         {
-            "ModName": "Remove_G_Slot_Restrictions",
+            "ModName": "Zailfyers_Deep_Ore_Extraction",
             "Rank": 16
         },
         {
-            "ModName": "Zailfyers_Deep_Ore_Extraction",
+            "ModName": "Zailfyers_Moduals",
             "Rank": 17
         },
         {
-            "ModName": "Zailfyers_Moduals",
+            "ModName": "Precision_Bow",
             "Rank": 18
         },
         {
-            "ModName": "Precision_Bow",
+            "ModName": "Building_Height_Strength",
             "Rank": 19
         },
         {
-            "ModName": "Building_Height_Strength",
+            "ModName": "Jimk_Glass_Buildables",
             "Rank": 20
         },
         {
-            "ModName": "Jimk_Glass_Buildables",
+            "ModName": "Jimk_Better_Glass",
             "Rank": 21
         },
         {
-            "ModName": "Jimk_Better_Glass",
-            "Rank": 22
-        },
-        {
             "ModName": "JimK_Scoped_rifle",
-            "Rank": 23
+            "Rank": 22
         }
     ],
     "Rows": [
@@ -16640,7 +16636,7 @@
             "File_Items": [
                 {
                     "Name": "Generator",
-                    "ResourceFlowRate": 50000
+                    "ResourceFlowRate": 20000
                 },
                 {
                     "Name": "SolarPanel",
@@ -16648,15 +16644,11 @@
                 },
                 {
                     "Name": "WaterWheel_Generator",
-                    "ResourceFlowRate": 50000
+                    "ResourceFlowRate": 5000
                 },
                 {
                     "Name": "WindTurbine",
-                    "ResourceFlowRate": 50000
-                },
-                {
-                    "Name": "Water_Pump_Energy",
-                    "ResourceFlowRate": 500
+                    "ResourceFlowRate": 5000
                 }
             ]
         },
@@ -16996,24 +16988,20 @@
             "File_Items": [
                 {
                     "Name": "Kit_Generator_Energy_Generator",
-                    "GenerationRate": 50000,
-                    "GenerationRatio": 75000
+                    "GenerationRate": 20000,
+                    "GenerationRatio": 30000
                 },
                 {
                     "Name": "SolarPanel_Generator",
-                    "GenerationRate": 50000
+                    "GenerationRate": 7500
                 },
                 {
                     "Name": "WaterWheel_Generator",
-                    "GenerationRate": 50000
+                    "GenerationRate": 5000
                 },
                 {
                     "Name": "WindTurbine",
-                    "GenerationRate": 50000
-                },
-                {
-                    "Name": "Water_Pump_Generator",
-                    "GenerationRate": 10000
+                    "GenerationRate": 5000
                 }
             ]
         },
@@ -23619,15 +23607,6 @@
                     "Archetype": {
                         "RowName": "Workshop_PetesKits"
                     }
-                }
-            ]
-        },
-        {
-            "CurrentFile": "Traits-D_Water.json",
-            "File_Items": [
-                {
-                    "Name": "Pump",
-                    "ResourceFlowRate": 10000
                 }
             ]
         },

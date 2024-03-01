@@ -35,7 +35,7 @@
         {
             "Name": "Generator",
             "FlowType": "Produce",
-            "ResourceFlowRate": 50000
+            "ResourceFlowRate": 20000
         },
         {
             "Name": "Battery",
@@ -141,7 +141,7 @@
             "FlowType": "Produce",
             "AlwaysActive": true,
             "AutoActivate": true,
-            "ResourceFlowRate": 50000
+            "ResourceFlowRate": 5000
         },
         {
             "Name": "Worklamp",
@@ -202,8 +202,7 @@
             "bIsOptional": true
         },
         {
-            "Name": "Water_Pump_Energy",
-            "ResourceFlowRate": 500
+            "Name": "Water_Pump_Energy"
         },
         {
             "Name": "Exotic_Electric_Drill",
@@ -268,7 +267,7 @@
         {
             "Name": "WindTurbine",
             "FlowType": "Produce",
-            "ResourceFlowRate": 50000
+            "ResourceFlowRate": 5000
         },
         {
             "Name": "T4Communicator",

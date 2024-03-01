@@ -83,8 +83,8 @@
         {
             "Name": "Kit_Generator_Energy_Generator",
             "Resource": "Energy",
-            "GenerationRate": 50000,
-            "GenerationRatio": 75000,
+            "GenerationRate": 20000,
+            "GenerationRatio": 30000,
             "TransmutableResources": [
                 "Fuel"
             ]
@@ -162,8 +162,7 @@
                 "Energy"
             ],
             "RequiresManualActivation": false,
-            "OutOfFuelThresholdPercent": -1,
-            "GenerationRate": 10000
+            "OutOfFuelThresholdPercent": -1
         },
         {
             "Name": "Dehumidifier",
@@ -271,12 +270,12 @@
         {
             "Name": "SolarPanel_Generator",
             "Resource": "Energy",
-            "GenerationRate": 50000
+            "GenerationRate": 7500
         },
         {
             "Name": "WaterWheel_Generator",
             "Resource": "Energy",
-            "GenerationRate": 50000
+            "GenerationRate": 5000
         },
         {
             "Name": "Fabricator_Generator",
@@ -341,7 +340,7 @@
         {
             "Name": "WindTurbine",
             "Resource": "Energy",
-            "GenerationRate": 50000
+            "GenerationRate": 5000
         },
         {
             "Name": "SpawnBlocker_T2",

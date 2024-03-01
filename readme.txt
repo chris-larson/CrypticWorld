@@ -11,7 +11,6 @@ FlickyClicky
 Jimk_Teleporter
 laanp-NoTreeLightningFires
 laanp-PetesMiningKit
-laanp-PowerSurge
 MinorTweaks
 MXC Cot
 Remove G Slot Restrictions
