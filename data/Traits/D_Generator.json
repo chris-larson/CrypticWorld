@@ -162,7 +162,8 @@
                 "Energy"
             ],
             "RequiresManualActivation": false,
-            "OutOfFuelThresholdPercent": -1
+            "OutOfFuelThresholdPercent": -1,
+            "GenerationRate": 10000
         },
         {
             "Name": "Dehumidifier",

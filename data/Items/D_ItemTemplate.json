@@ -13533,6 +13533,162 @@
             "ItemStaticData": {
                 "RowName": "Jimk_Scope_Rifle_20x"
             }
+        },
+        {
+            "Name": "Jimk_Steel_Roof",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Roof"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_HalfPitch_Roof",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_HalfPitch_Roof"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Roof_Corner",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Roof_Corner"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Cap",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Cap"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Shelf",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Shelf"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Sign",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Wall_Sign"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Fireplace_Chimney_Ext",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Fireplace_Chimney_Ext"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Fireplace_Chimney_Cap_Half",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Fireplace_Chimney_Cap_Half"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Fireplace_Chimney_Cap",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Fireplace_Chimney_Cap"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Crate",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Crate"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Crate_Wall_Mount",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Crate_Wall_Mount"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Cupboard",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Cupboard"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Fireplace",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Fireplace"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Bed",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Bed"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Floor_Half",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Floor_Half"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Railing",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Railing"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Door",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Door"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Angle",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Wall_Angle"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Ladders",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Ladders"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Wall"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Steps",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Steps"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Floor",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Floor"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Ramp",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Ramp"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Beam",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Beam"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Frame",
+            "ItemStaticData": {
+                "RowName": "Jimk_Steel_Frame"
+            }
+        },
+        {
+            "Name": "Reinforced_Int_Floor",
+            "ItemStaticData": {
+                "RowName": "Reinforced_Int_Floor"
+            }
         }
     ]
 }

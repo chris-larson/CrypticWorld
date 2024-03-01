@@ -7466,6 +7466,787 @@
             "Audio": {
                 "RowName": "Glass"
             }
+        },
+        {
+            "Name": "Jimk_Steel_HalfNormal_HalfWallLower",
+            "Type": {
+                "RowName": "Wall_Half"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/ITEM_Jimk_Steel_Halfpiece_3.ITEM_Jimk_Steel_Halfpiece_3",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Wall_Half_1_Jimk_Steel.BP_Building_Wall_Half_1_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_HalfNormal_HalfWallUpper",
+            "Type": {
+                "RowName": "Wall_Half_Upper"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/ITEM_Jimk_Steel_Halfpiece_3.ITEM_Jimk_Steel_Halfpiece_3",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Wall_Half_2_Jimk_Steel.BP_Building_Wall_Half_2_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_HalfPitch_LowerRoof",
+            "Type": {
+                "RowName": "Ramp_HalfPitch_Lower"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/ITEM_Jimk_Steel_Half_Pitch_0.ITEM_Jimk_Steel_Half_Pitch_0",
+            "Blueprint": "/Game/BP/Building/Steel/LowPitch_Steel/BP_Building_Ramp_HalfPitch_Lower_Jimk_Steel.BP_Building_Ramp_HalfPitch_Lower_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_HalfPitch_UpperRoof",
+            "Type": {
+                "RowName": "Ramp_HalfPitch_Upper"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/ITEM_Jimk_Steel_Half_Pitch_1.ITEM_Jimk_Steel_Half_Pitch_1",
+            "Blueprint": "/Game/BP/Building/Steel/LowPitch_Steel/BP_Building_Ramp_HalfPitch_Upper_Jimk_Steel.BP_Building_Ramp_HalfPitch_Upper_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_HalfPitch_LowerLeftWall",
+            "Type": {
+                "RowName": "Wall_HalfPitch_Lower_L"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/ITEM_Jimk_Steel_Half_Pitch_2.ITEM_Jimk_Steel_Half_Pitch_2",
+            "Blueprint": "/Game/BP/Building/Steel/LowPitch_Steel/BP_Building_Wall_HalfPitch_Lower_Left_Jimk_Steel.BP_Building_Wall_HalfPitch_Lower_Left_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_HalfPitch_UpperLeftWall",
+            "Type": {
+                "RowName": "Wall_HalfPitch_Upper_L"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/ITEM_Jimk_Steel_Half_Pitch_3.ITEM_Jimk_Steel_Half_Pitch_3",
+            "Blueprint": "/Game/BP/Building/Steel/LowPitch_Steel/BP_Building_Wall_HalfPitch_Upper_Left_Jimk_Steel.BP_Building_Wall_HalfPitch_Upper_Left_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_HalfPitch_LowerRightWall",
+            "Type": {
+                "RowName": "Wall_HalfPitch_Lower_R"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/ITEM_Jimk_Steel_Half_Pitch_4.ITEM_Jimk_Steel_Half_Pitch_4",
+            "Blueprint": "/Game/BP/Building/Steel/LowPitch_Steel/BP_Building_Wall_HalfPitch_Lower_Right_Jimk_Steel.BP_Building_Wall_HalfPitch_Lower_Right_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_HalfPitch_UpperRightWall",
+            "Type": {
+                "RowName": "Wall_HalfPitch_Upper_R"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/ITEM_Jimk_Steel_Half_Pitch_5.ITEM_Jimk_Steel_Half_Pitch_5",
+            "Blueprint": "/Game/BP/Building/Steel/LowPitch_Steel/BP_Building_Wall_HalfPitch_Upper_Right_Jimk_Steel.BP_Building_Wall_HalfPitch_Upper_Right_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Roof",
+            "Type": {
+                "RowName": "Wall_Solid"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Roof_Wall.Item_Jimk_Steel_Roof_Wall",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Wall_Roof_Jimk_Steel.BP_Building_Wall_Roof_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Ramp_Roof",
+            "Type": {
+                "RowName": "Ramp"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Roof.Item_Jimk_Steel_Roof",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Ramp_Roof_Jimk_Steel.BP_Building_Ramp_Roof_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Ramp_RoofPeak",
+            "Type": {
+                "RowName": "Ramp_Roof_Peak"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_RoofPeak.Item_Jimk_Steel_RoofPeak",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Roof_Peak_Jimk_Steel.BP_Building_Roof_Peak_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Roof_Corner_Left",
+            "Type": {
+                "RowName": "Ramp_Roof_Corner_L"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Wall_Roof_Corner_0.Item_Jimk_Steel_Wall_Roof_Corner_0",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_RoofCorner_L_Jimk_Steel.BP_Building_RoofCorner_L_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Roof_Corner_Right",
+            "Type": {
+                "RowName": "Ramp_Roof_Corner_R"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Wall_Roof_Corner_1.Item_Jimk_Steel_Wall_Roof_Corner_1",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_RoofCorner_R_Jimk_Steel.BP_Building_RoofCorner_R_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Roof_Corner_InvertedRight",
+            "Type": {
+                "RowName": "Ramp_Roof_Corner_R_Invert"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Wall_Roof_Corner_2.Item_Jimk_Steel_Wall_Roof_Corner_2",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_InvRoofCorner_R_Jimk_Steel.BP_Building_InvRoofCorner_R_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Roof_Corner_InvertedLeft",
+            "Type": {
+                "RowName": "Ramp_Roof_Corner_L_Invert"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Wall_Roof_Corner_3.Item_Jimk_Steel_Wall_Roof_Corner_3",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_InvRoofCorner_L_Jimk_Steel.BP_Building_InvRoofCorner_L_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Angle_AngleLeft_Inverted",
+            "Type": {
+                "RowName": "Wall_Angle_R_Invert"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Wall_Angle_R_Inverted.Item_Jimk_Steel_Wall_Angle_R_Inverted",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Wall_Half_Angle_L_Invert_Jimk_Steel.BP_Building_Wall_Half_Angle_L_Invert_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Angle_AngleRight_Inverted",
+            "Type": {
+                "RowName": "Wall_Angle_L_Invert"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Wall_Angle_L_Inverted.Item_Jimk_Steel_Wall_Angle_L_Inverted",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Wall_Half_Angle_R_Invert_Jimk_Steel.BP_Building_Wall_Half_Angle_R_Invert_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Angle_AngleLeft",
+            "Type": {
+                "RowName": "Wall_Angle_R"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Wall_Angle_R.Item_Jimk_Steel_Wall_Angle_R",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Wall_Half_Angle_L_Jimk_Steel.BP_Building_Wall_Half_Angle_L_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Angle_AngleRight",
+            "Type": {
+                "RowName": "Wall_Angle_L"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Wall_Angle_L.Item_Jimk_Steel_Wall_Angle_L",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Wall_Half_Angle_R_Jimk_Steel.BP_Building_Wall_Half_Angle_R_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Angle_AnglePeak",
+            "Type": {
+                "RowName": "Wall_Angle_Peak"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_RoofPeak_EndCap.Item_Jimk_Steel_RoofPeak_EndCap",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Wall_Half_Angle_Peak_Jimk_Steel.BP_Building_Wall_Half_Angle_Peak_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Stairs_Center",
+            "Type": {
+                "RowName": "Ramp_Stairs_Center"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Stairs_Small.Item_Jimk_Steel_Stairs_Small",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Stairs_Jimk_Steel_Small.BP_Building_Stairs_Jimk_Steel_Small_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Stairs_Left",
+            "Type": {
+                "RowName": "Ramp_Stairs_Left"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Stairs_Small.Item_Jimk_Steel_Stairs_Small",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Stairs_Left_Jimk_Steel_Small.BP_Building_Stairs_Left_Jimk_Steel_Small_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Stairs_Right",
+            "Type": {
+                "RowName": "Ramp_Stairs_Right"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Stairs_Small.Item_Jimk_Steel_Stairs_Small",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Stairs_Right_Jimk_Steel_Small.BP_Building_Stairs_Right_Jimk_Steel_Small_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Floor_Half_Ver_01",
+            "Type": {
+                "RowName": "Floor_Half"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Half_Ver_01.Item_Jimk_Steel_Floor_Half_Ver_01",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Floor_Jimk_Steel_Half_Ver_01.BP_Building_Floor_Jimk_Steel_Half_Ver_01_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Floor_Half_Ver_02",
+            "Type": {
+                "RowName": "Floor_Half"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Half_Ver_01.Item_Jimk_Steel_Floor_Half_Ver_01",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Floor_Jimk_Steel_Half_Ver_02.BP_Building_Floor_Jimk_Steel_Half_Ver_02_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Floor_Quarter",
+            "Type": {
+                "RowName": "Floor_Quarter"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Quarter_Floor.Item_Jimk_Steel_Quarter_Floor",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Floor_Quarter_Jimk_Steel_Roof.BP_Building_Floor_Quarter_Jimk_Steel_Roof_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Floor_Half",
+            "Type": {
+                "RowName": "Floor_Half"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Half_Floor.Item_Jimk_Steel_Half_Floor",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Floor_Half_Jimk_Steel_Roof.BP_Building_Floor_Half_Jimk_Steel_Roof_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Floor_Ver_01",
+            "Type": {
+                "RowName": "Floor"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Ver_01_Zoom.Item_Jimk_Steel_Floor_Ver_01_Zoom",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Floor_Jimk_Steel_Ver_01.BP_Building_Floor_Jimk_Steel_Ver_01_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Floor_Ver_02",
+            "Type": {
+                "RowName": "Diamond_Plate"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Ver_02_Zoom.Item_Jimk_Steel_Floor_Ver_02_Zoom",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Floor_Jimk_Steel_Ver_02.BP_Building_Floor_Jimk_Steel_Ver_02_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Floor_Ver_03",
+            "Type": {
+                "RowName": "Variation_2"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Ver_03_Zoom.Item_Jimk_Steel_Floor_Ver_03_Zoom",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Floor_Jimk_Steel_Ver_03.BP_Building_Floor_Jimk_Steel_Ver_03_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Floor_Ver_04",
+            "Type": {
+                "RowName": "Diamond_Plate"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Ver_04_Zoom.Item_Jimk_Steel_Floor_Ver_04_Zoom",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Floor_Jimk_Steel_Ver_04.BP_Building_Floor_Jimk_Steel_Ver_04_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Floor_Ver_05",
+            "Type": {
+                "RowName": "Caution"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Ver_05_Zoom.Item_Jimk_Steel_Floor_Ver_05_Zoom",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Floor_Jimk_Steel_Ver_05.BP_Building_Floor_Jimk_Steel_Ver_05_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Floor_Ver_06",
+            "Type": {
+                "RowName": "Caution_Diamond_Plate"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Ver_06_Zoom.Item_Jimk_Steel_Floor_Ver_06_Zoom",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Floor_Jimk_Steel_Ver_06.BP_Building_Floor_Jimk_Steel_Ver_06_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Floor_Ver_07",
+            "Type": {
+                "RowName": "Variation_2"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Ver_07_Zoom.Item_Jimk_Steel_Floor_Ver_07_Zoom",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Floor_Jimk_Steel_Ver_07.BP_Building_Floor_Jimk_Steel_Ver_07_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Floor_Ver_08",
+            "Type": {
+                "RowName": "Caution_Diamond_Plate"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Ver_08_Zoom.Item_Jimk_Steel_Floor_Ver_08_Zoom",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Floor_Jimk_Steel_Ver_08.BP_Building_Floor_Jimk_Steel_Ver_08_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Floor_Roof",
+            "Type": {
+                "RowName": "Floor"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Roof_Floor.Item_Jimk_Steel_Roof_Floor",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Floor_Jimk_Steel_Roof.BP_Building_Floor_Jimk_Steel_Roof_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Door",
+            "Type": {
+                "RowName": "Wall_Door_Frame"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Wall_Door.Item_Jimk_Steel_Wall_Door",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Wall_Doorframe_Jimk_Steel.BP_Building_Wall_Doorframe_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Door_Left",
+            "Type": {
+                "RowName": "Wall_Door_DBL_L"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Door_Left.Item_Jimk_Steel_Door_Left",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Wall_Door_DBL_L_Jimk_Steel.BP_Building_Wall_Door_DBL_L_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Door_Right",
+            "Type": {
+                "RowName": "Wall_Door_DBL_R"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Door_Right.Item_Jimk_Steel_Door_Right",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Wall_Door_DBL_R_Jimk_Steel.BP_Building_Wall_Door_DBL_R_Jimk_Steel_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Solid_Ver_01",
+            "Type": {
+                "RowName": "Wall_Solid"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Wall_Solid_Ver_01.Item_Jimk_Steel_Wall_Solid_Ver_01",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Wall_Solid_Jimk_Steel_Ver_01.BP_Building_Wall_Solid_Jimk_Steel_Ver_01_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Solid_Ver_02",
+            "Type": {
+                "RowName": "Variation_1"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Wall_Solid_Ver_02.Item_Jimk_Steel_Wall_Solid_Ver_02",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Wall_Solid_Jimk_Steel_Ver_02.BP_Building_Wall_Solid_Jimk_Steel_Ver_02_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Solid_Ver_03",
+            "Type": {
+                "RowName": "Variation_2"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Wall_Solid_Ver_03.Item_Jimk_Steel_Wall_Solid_Ver_03",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Wall_Solid_Jimk_Steel_Ver_03.BP_Building_Wall_Solid_Jimk_Steel_Ver_03_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Window_Ver_01",
+            "Type": {
+                "RowName": "Wall_Window_Frame"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Wall_Window_Closed.Item_Jimk_Steel_Wall_Window_Closed",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Wall_Window_Jimk_Steel_Ver_01.BP_Building_Wall_Window_Jimk_Steel_Ver_01_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Window_Ver_02",
+            "Type": {
+                "RowName": "Steel_Glass"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Wall_Glass.Item_Jimk_Steel_Wall_Glass",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Wall_Window_Jimk_Steel_Ver_02.BP_Building_Wall_Window_Jimk_Steel_Ver_02_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Window_Ver_01_Open",
+            "Type": {
+                "RowName": "Wall_Window_Frame"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Wall_Window_Open.Item_Jimk_Steel_Wall_Window_Open",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Wall_Window_Jimk_Steel_Ver_01_Open.BP_Building_Wall_Window_Jimk_Steel_Ver_01_Open_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Frame_Ver_01",
+            "Type": {
+                "RowName": "Variation_1"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Frame_Beams_Solid_Ver_01.Item_Jimk_Steel_Frame_Beams_Solid_Ver_01",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Frame_Jimk_Steel_Ver_01.BP_Building_Frame_Jimk_Steel_Ver_01_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Frame_Ver_02",
+            "Type": {
+                "RowName": "Variation_2"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Frame_Beams_Solid_Ver_01.Item_Jimk_Steel_Frame_Beams_Solid_Ver_01",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Frame_Jimk_Steel_Ver_02.BP_Building_Frame_Jimk_Steel_Ver_02_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Frame_Ver_04",
+            "Type": {
+                "RowName": "Variation_1"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Frame_Beams_Ver_01.Item_Jimk_Steel_Frame_Beams_Ver_01",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Frame_Jimk_Steel_Ver_04.BP_Building_Frame_Jimk_Steel_Ver_04_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Frame_Ver_05",
+            "Type": {
+                "RowName": "Variation_2"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Frame_Beams_Ver_01.Item_Jimk_Steel_Frame_Beams_Ver_01",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Frame_Jimk_Steel_Ver_05.BP_Building_Frame_Jimk_Steel_Ver_05_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Frame_Ver_07",
+            "Type": {
+                "RowName": "Variation_1"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Frame_Solid_Ver_01.Item_Jimk_Steel_Frame_Solid_Ver_01",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Frame_Jimk_Steel_Ver_07.BP_Building_Frame_Jimk_Steel_Ver_07_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Ramp_Ver_01",
+            "Type": {
+                "RowName": "Ramp"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Ver_01_Zoom.Item_Jimk_Steel_Floor_Ver_01_Zoom",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Ramp_Jimk_Steel_Ver_01.BP_Building_Ramp_Jimk_Steel_Ver_01_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Ramp_Ver_02",
+            "Type": {
+                "RowName": "Diamond_Plate"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Ver_02_Zoom.Item_Jimk_Steel_Floor_Ver_02_Zoom",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Ramp_Jimk_Steel_Ver_02.BP_Building_Ramp_Jimk_Steel_Ver_02_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Ramp_Ver_03",
+            "Type": {
+                "RowName": "Variation_2"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Ver_03_Zoom.Item_Jimk_Steel_Floor_Ver_03_Zoom",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Ramp_Jimk_Steel_Ver_03.BP_Building_Ramp_Jimk_Steel_Ver_03_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Ramp_Ver_04",
+            "Type": {
+                "RowName": "Diamond_Plate"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Ver_04_Zoom.Item_Jimk_Steel_Floor_Ver_04_Zoom",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Ramp_Jimk_Steel_Ver_04.BP_Building_Ramp_Jimk_Steel_Ver_04_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Ramp_Ver_05",
+            "Type": {
+                "RowName": "Caution"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Ver_05_Zoom.Item_Jimk_Steel_Floor_Ver_05_Zoom",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Ramp_Jimk_Steel_Ver_05.BP_Building_Ramp_Jimk_Steel_Ver_05_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Ramp_Ver_06",
+            "Type": {
+                "RowName": "Caution_Diamond_Plate"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Ver_06_Zoom.Item_Jimk_Steel_Floor_Ver_06_Zoom",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Ramp_Jimk_Steel_Ver_06.BP_Building_Ramp_Jimk_Steel_Ver_06_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Ramp_Ver_07",
+            "Type": {
+                "RowName": "Variation_2"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Ver_07_Zoom.Item_Jimk_Steel_Floor_Ver_07_Zoom",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Ramp_Jimk_Steel_Ver_07.BP_Building_Ramp_Jimk_Steel_Ver_07_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Ramp_Ver_08",
+            "Type": {
+                "RowName": "Caution_Diamond_Plate"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Ver_08_Zoom.Item_Jimk_Steel_Floor_Ver_08_Zoom",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Ramp_Jimk_Steel_Ver_08.BP_Building_Ramp_Jimk_Steel_Ver_08_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Steps_Ver_03",
+            "Type": {
+                "RowName": "Variation_3"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Steps_Ver_03_Zoom.Item_Jimk_Steel_Steps_Ver_03_Zoom",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Steps_Jimk_Steel_Ver_03.BP_Building_Steps_Jimk_Steel_Ver_03_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Beam_Vertical_Ver_01",
+            "Type": {
+                "RowName": "Beam_Vertical"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_SteelBeam_vertical_Ver_01.Item_Jimk_SteelBeam_vertical_Ver_01",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Vertical_Jimk_Steel_Ver_01.BP_Building_Beam_Vertical_Jimk_Steel_Ver_01_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Beam_Vertical_Ver_01_Half",
+            "Type": {
+                "RowName": "Beam_Vertical"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_SteelBeam_vertical_Ver_01_Half.Item_Jimk_SteelBeam_vertical_Ver_01_Half",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Vertical_Jimk_Steel_Ver_01_Half.BP_Building_Beam_Vertical_Jimk_Steel_Ver_01_Half_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Beam_Diagonal_Ver_01",
+            "Type": {
+                "RowName": "Beam_Diagonal"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Beam_Diagonal_Ver_01.Item_Jimk_Steel_Beam_Diagonal_Ver_01",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Diagonal_Jimk_Steel_Ver_01.BP_Building_Beam_Diagonal_Jimk_Steel_Ver_01_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Beam_Horizontal_Ver_01",
+            "Type": {
+                "RowName": "Beam_Horizontal"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Beam_Horizontal_Ver_01.Item_Jimk_Steel_Beam_Horizontal_Ver_01",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Horizontal_Jimk_Steel_Ver_01.BP_Building_Beam_Horizontal_Jimk_Steel_Ver_01_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Beam_Vertical_Ver_03",
+            "Type": {
+                "RowName": "Variation_3"
+            },
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_SteelBeam_vertical_Ver_03.Item_Jimk_SteelBeam_vertical_Ver_03",
+            "Blueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Vertical_Jimk_Steel_Ver_03.BP_Building_Beam_Vertical_Jimk_Steel_Ver_03_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Interior_Wood_Beam_VerticalHalfBeam",
+            "Type": {
+                "RowName": "Beam_Vertical"
+            },
+            "Icon": "/Game/ASS/BLD/ITEM_Interior_Wood_Beam_3.ITEM_Interior_Wood_Beam_3",
+            "Blueprint": "/Game/BP/Building/InteriorWood/BP_Building_Beam_Half_Vertical_INT_Wood.BP_Building_Beam_Half_Vertical_INT_Wood_C",
+            "Audio": {
+                "RowName": "Wood"
+            }
+        },
+        {
+            "Name": "Iron_Reinforced_Wood_Floor",
+            "Type": {
+                "RowName": "Floor"
+            },
+            "Icon": "/Game/BP/Item_BLD_Floor_Iron_Reinforced_Wood.Item_BLD_Floor_Iron_Reinforced_Wood",
+            "Blueprint": "/Game/BP/Building/InteriorWood/BP_Building_Floor_Iron_Reinforced_Wood.BP_Building_Floor_Iron_Reinforced_Wood_C",
+            "Audio": {
+                "RowName": "Iron"
+            }
+        },
+        {
+            "Name": "Concrete_Wall_Solid_Interior_Wood",
+            "Type": {
+                "RowName": "Wall_Solid"
+            },
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Wall_Refined_0.ITEM_Wood_Wall_Refined_0",
+            "Blueprint": "/Game/BP/Building/Concrete/BP_Building_Wall_Solid_Concrete2.BP_Building_Wall_Solid_Concrete2_C",
+            "Audio": {
+                "RowName": "Concrete"
+            }
+        },
+        {
+            "Name": "Concrete_Wall_Window_Interior_Wood",
+            "Type": {
+                "RowName": "Wall_Window_Frame"
+            },
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Wall_Refined_1.ITEM_Wood_Wall_Refined_1",
+            "Blueprint": "/Game/BP/Building/Concrete/BP_Building_Wall_Windowframe_Concrete2.BP_Building_Wall_Windowframe_Concrete2_C",
+            "Audio": {
+                "RowName": "Concrete"
+            }
+        },
+        {
+            "Name": "Concrete_Wall_Door_Interior_Wood",
+            "Type": {
+                "RowName": "Wall_Door_Frame"
+            },
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Wall_Refined_2.ITEM_Wood_Wall_Refined_2",
+            "Blueprint": "/Game/BP/Building/Concrete/BP_Building_Wall_Doorframe_Concrete2.BP_Building_Wall_Doorframe_Concrete2_C",
+            "Audio": {
+                "RowName": "Concrete"
+            }
+        },
+        {
+            "Name": "Concrete_Wall_Double_Door_R_Interior_Wood",
+            "Type": {
+                "RowName": "Wall_Door_DBL_R"
+            },
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Wall_Refined_4.ITEM_Wood_Wall_Refined_4",
+            "Blueprint": "/Game/BP/Building/Concrete/BP_Building_Wall_Door_DBL_R_Concrete2.BP_Building_Wall_Door_DBL_R_Concrete2_C",
+            "Audio": {
+                "RowName": "Concrete"
+            }
+        },
+        {
+            "Name": "Concrete_Wall_Double_Door_L_Interior_Wood",
+            "Type": {
+                "RowName": "Wall_Door_DBL_L"
+            },
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Buildables/ITEM_Wood_Wall_Refined_3.ITEM_Wood_Wall_Refined_3",
+            "Blueprint": "/Game/BP/Building/Concrete/BP_Building_Wall_Door_DBL_L_Concrete2.BP_Building_Wall_Door_DBL_L_Concrete2_C",
+            "Audio": {
+                "RowName": "Concrete"
+            }
         }
     ]
 }

@@ -6449,6 +6449,130 @@
             "ItemActor": "/Game/ASS/WEP/SK_GUN_HuntingRifle/BP_SkeletalItem_HuntingRifle_Scoped.BP_SkeletalItem_HuntingRifle_Scoped_C",
             "EquipHandMesh": "/Game/ASS/WEP/SK_GUN_HuntingRifle/SK_GUN_HuntingRifle_Scoped.SK_GUN_HuntingRifle_Scoped",
             "EquipHandActor": "/Game/ASS/WEP/SK_GUN_HuntingRifle/BP_SkeletalItem_HuntingRifle_Scoped.BP_SkeletalItem_HuntingRifle_Scoped_C"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Cap",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "DeployableActor": "/Game/BP/Building/Steel/BP_Building_Beam_Plate_Jimk_Steel.BP_Building_Beam_Plate_Jimk_Steel_C"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Shelf",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "DeployableActor": "/Game/BP/BP_Carved_WallShelf_A.BP_Carved_WallShelf_A_C"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Wall_Sign",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "DeployableActor": "/Game/BP/BP_Jimk_Steel_Wall_Sign.BP_Jimk_Steel_Wall_Sign_C"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Fireplace_Chimney_Ext",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "DeployableActor": "/Game/BP/BP_Jimk_Steel_Fireplace_Chimney_Ext.BP_Jimk_Steel_Fireplace_Chimney_Ext_C"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Fireplace_Chimney_Cap",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "DeployableActor": "/Game/BP/BP_Jimk_Steel_Fireplace_Chimney_Cap.BP_Jimk_Steel_Fireplace_Chimney_Cap_C"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Fireplace_Chimney_Cap_Half",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "DeployableActor": "/Game/BP/BP_Jimk_Steel_Fireplace_Chimney_Cap_Half.BP_Jimk_Steel_Fireplace_Chimney_Cap_Half_C"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Crate",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Machining.SM_KIT_Machining",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "DeployableActor": "/Game/BP/BP_Jimk_Steel_Crate.BP_Jimk_Steel_Crate_C"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Crate_Wall_Mount",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Machining.SM_KIT_Machining",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "DeployableActor": "/Game/BP/BP_Jimk_Steel_Crate_Wall_Mount.BP_Jimk_Steel_Crate_Wall_Mount_C"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Cupboard",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Machining.SM_KIT_Machining",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "DeployableActor": "/Game/BP/BP_Jimk_Steel_Cupboard.BP_Jimk_Steel_Cupboard_C"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Fireplace",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "DeployableActor": "/Game/BP/BP_Jimk_Steel_Fireplace.BP_Jimk_Steel_Fireplace_C"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Bed",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "DeployableActor": "/Game/BP/BP_Jimk_Steel_Bed.Jimk_Steel_Bed_C"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Door",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "DeployableActor": "/Game/BP/BP_Jimk_Steel_Door.BP_Jimk_Steel_Door_C"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Floor",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Floor_Half",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Wall",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Ramp",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Roof",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Frame",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Beam",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Railing",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "DeployableActor": "/Game/BP/Building/Steel/BP_Railing_Jimk_Steel.BP_Railing_Jimk_Steel_C"
+        },
+        {
+            "Name": "Mesh_Jimk_Steel_Ladders",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Machining.SM_KIT_Machining",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Building/Steel/BP_Metal_Ladder_Jimk_Steel.BP_Metal_Ladder_Jimk_Steel_C"
+        },
+        {
+            "Name": "Mesh_Reinforced_Int_Floor",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron",
+            "EquipHandMesh": "/Game/ASS/KIT/SM_KIT_Iron.SM_KIT_Iron"
         }
     ]
 }

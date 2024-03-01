@@ -809,6 +809,16 @@
                         "RowName": "Interior_Wood_Beam_DiagonalBeam",
                         "DataTableName": "D_BuildingPieces"
                     }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Interior_Wood_Beam_VerticalHalfBeam",
+                        "DataTableName": "D_BuildingPieces"
+                    }
                 }
             ]
         },
@@ -1591,6 +1601,56 @@
                     },
                     "Piece": {
                         "RowName": "Concrete_Wall_DoubleWindowL",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Wall_Solid_Interior_Wood",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Wall_Window_Interior_Wood",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Wall_Door_Interior_Wood",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Wall_Double_Door_R_Interior_Wood",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Concrete_Wall_Double_Door_L_Interior_Wood",
                         "DataTableName": "D_BuildingPieces"
                     }
                 }
@@ -7868,6 +7928,826 @@
                     },
                     "Piece": {
                         "RowName": "Jimk_Steel_Glass_Roof_Corner_InvertedLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Jimk_Steel_Frame",
+            "Stability": {
+                "RowName": "Jimk_Steel"
+            },
+            "Type": {
+                "RowName": "Jimk_Steel"
+            },
+            "PieceType": "Frame",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Frame_Ver_01",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Frame_Ver_02",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Frame_Ver_04",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Frame_Ver_05",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Frame_Ver_07",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Jimk_Steel_Floor",
+            "Stability": {
+                "RowName": "Jimk_Steel"
+            },
+            "Type": {
+                "RowName": "Jimk_Steel"
+            },
+            "PieceType": "Floor",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Floor_Ver_01",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Floor_Ver_02",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Floor_Ver_03",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Floor_Ver_04",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Floor_Ver_05",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Floor_Ver_06",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Floor_Ver_07",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Floor_Ver_08",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Floor_Ver_09",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Floor_Half_Ver_01",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Floor_Half_Ver_02",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Jimk_Steel_Floor_Half",
+            "Stability": {
+                "RowName": "Jimk_Steel"
+            },
+            "Type": {
+                "RowName": "Jimk_Steel"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Floor_Half",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Floor_Quarter",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_HalfNormal_HalfWallLower",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_HalfNormal_HalfWallUpper",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Jimk_Steel_Wall",
+            "Stability": {
+                "RowName": "Jimk_Steel"
+            },
+            "Type": {
+                "RowName": "Jimk_Steel"
+            },
+            "PieceType": "Wall",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Wall_Solid_Ver_01",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Wall_Door",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Wall_Solid_Ver_02",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Wall_Solid_Ver_03",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Wall_Solid_Ver_04",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Wall_Window_Ver_01",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Wall_Window_Ver_01_Open",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Wall_Window_Ver_02",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Wall_Door_Left",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Wall_Door_Right",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Angle",
+            "Stability": {
+                "RowName": "Jimk_Steel"
+            },
+            "Type": {
+                "RowName": "Jimk_Steel"
+            },
+            "PieceType": "Wall",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Wall_Angle_AngleLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Wall_Angle_AngleRight_Inverted",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Wall_Angle_AngleRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Wall_Angle_AngleLeft_Inverted",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Wall_Angle_AnglePeak",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Jimk_Steel_Ramp",
+            "Stability": {
+                "RowName": "Jimk_Steel"
+            },
+            "Type": {
+                "RowName": "Jimk_Steel"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Ramp_Ver_01",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Ramp_Ver_02",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Ramp_Ver_03",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Ramp_Ver_04",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Ramp_Ver_05",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Ramp_Ver_06",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Ramp_Ver_07",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Ramp_Ver_08",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Steps_Ver_03",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Jimk_Steel_Steps",
+            "Stability": {
+                "RowName": "Jimk_Steel"
+            },
+            "Type": {
+                "RowName": "Jimk_Steel"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Stairs_Center",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Stairs_Right",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Stairs_Left",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Jimk_Steel_Beam",
+            "Stability": {
+                "RowName": "Jimk_Steel"
+            },
+            "Type": {
+                "RowName": "Jimk_Steel"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Beam_Vertical_Ver_01",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Beam_Diagonal_Ver_01",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Beam_Horizontal_Ver_01",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Beam_Vertical_Ver_03",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Beam_Vertical_Ver_01_Half",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Jimk_Steel_Roof_Corner",
+            "Stability": {
+                "RowName": "Jimk_Steel"
+            },
+            "Type": {
+                "RowName": "Jimk_Steel"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Roof_Corner_Left",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Roof_Corner_Right",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Roof_Corner_InvertedRight",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Roof_Corner_InvertedLeft",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Jimk_Steel_Roof",
+            "Stability": {
+                "RowName": "Jimk_Steel"
+            },
+            "Type": {
+                "RowName": "Jimk_Steel"
+            },
+            "PieceType": "Wall",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Ramp_Roof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Ramp_RoofPeak",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Wall_Roof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_Floor_Roof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Jimk_Steel_HalfPitch_Roof",
+            "Stability": {
+                "RowName": "Jimk_Steel"
+            },
+            "Type": {
+                "RowName": "Jimk_Steel"
+            },
+            "PieceType": "Ramp",
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_HalfPitch_LowerRoof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_HalfPitch_UpperRoof",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_HalfPitch_LowerLeftWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_HalfPitch_UpperLeftWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_HalfPitch_LowerRightWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_HalfPitch_UpperRightWall",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                },
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Jimk_Steel_HalfNormal_HalfWallLower",
+                        "DataTableName": "D_BuildingPieces"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Reinforced_Int_Floor",
+            "Stability": {
+                "RowName": "Stone_General"
+            },
+            "Type": {
+                "RowName": "Iron_Reinforced_Wood"
+            },
+            "Variations": [
+                {
+                    "Requirement": {
+                        "RowName": "None",
+                        "DataTableName": "D_Talents"
+                    },
+                    "Piece": {
+                        "RowName": "Iron_Reinforced_Wood_Floor",
                         "DataTableName": "D_BuildingPieces"
                     }
                 }

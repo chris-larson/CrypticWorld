@@ -5734,6 +5734,232 @@
                 }
             ],
             "EffectedByWeather": false
+        },
+        {
+            "Name": "Jimk_Steel_Cap",
+            "Variants": [
+                {
+                    "RowName": "Jimk_Steel_Cap",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Cap_Large",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Plate",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Plate_90DEG",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Plate_Top",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Plate_Bottom",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Plate_Left",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Plate_Right",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Plate_Corner_A",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Plate_Corner_B",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Plate_Corner_C",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Plate_Corner_D",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Plate_Coupling",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Plate_45DEG",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Jimk_Steel_Shelf",
+            "Variants": [
+                {
+                    "RowName": "Jimk_Steel_Shelf",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Shelf_Small",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Sign",
+            "Variants": [
+                {
+                    "RowName": "Jimk_Steel_Wall_Sign",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Wall_Sign_Small",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Jimk_Steel_Fireplace_Chimney_Ext",
+            "Variants": [
+                {
+                    "RowName": "Jimk_Steel_Fireplace_Chimney_Ext",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Jimk_Steel_Fireplace_Chimney_Cap",
+            "Variants": [
+                {
+                    "RowName": "Jimk_Steel_Fireplace_Chimney_Cap",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Jimk_Steel_Fireplace_Chimney_Cap_Half",
+            "Variants": [
+                {
+                    "RowName": "Jimk_Steel_Fireplace_Chimney_Cap_Half",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Jimk_Steel_Crate",
+            "Variants": [
+                {
+                    "RowName": "Jimk_Steel_Crate",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Jimk_Steel_Crate_Wall_Mount",
+            "Variants": [
+                {
+                    "RowName": "Jimk_Steel_Crate_Wall_Mount",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Jimk_Steel_Cupboard",
+            "Variants": [
+                {
+                    "RowName": "Jimk_Steel_Cupboard",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Jimk_Steel_Fireplace",
+            "Variants": [
+                {
+                    "RowName": "Jimk_Steel_Fireplace",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Jimk_Steel_Bed",
+            "Variants": [
+                {
+                    "RowName": "Jimk_Steel_Bed",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ]
+        },
+        {
+            "Name": "Jimk_Steel_Door",
+            "Variants": [
+                {
+                    "RowName": "Jimk_Steel_Door",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "AudioOcclusionAmount": 0.5,
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Jimk_Steel_Railing",
+            "Variants": [
+                {
+                    "RowName": "Jimk_Steel_Railing",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Railing_Small",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Railing_Mini",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Railing_Stairs",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Jimk_Steel_Ladders",
+            "Variants": [
+                {
+                    "RowName": "Jimk_Steel_Ladder",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Jimk_Steel_Ladder_Top",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Reinforced_Int_Floor",
+            "Variants": [
+                {
+                    "RowName": "Reinforced_Int_Floor",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
         }
     ]
 }

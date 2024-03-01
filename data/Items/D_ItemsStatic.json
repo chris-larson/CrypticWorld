@@ -134202,6 +134202,2185 @@
                 ],
                 "ParentTags": []
             }
+        },
+        {
+            "Name": "Jimk_Steel_Cap",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Cap"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Cap"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Jimk_Steel_Cap"
+            },
+            "Durable": {
+                "RowName": "Deployable_5000"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Shelf",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Shelf"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Shelf"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Jimk_Steel_Shelf"
+            },
+            "Durable": {
+                "RowName": "Deployable_5000"
+            },
+            "Floatable": {
+                "RowName": "Items"
+            },
+            "Experience": {
+                "RowName": "CraftedItem"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Audio": {
+                "RowName": "GenericDeployable"
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Floatable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Sign",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Wall_Sign"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Wall_Sign"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Jimk_Steel_Wall_Sign"
+            },
+            "Durable": {
+                "RowName": "Deployable_5000"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Decoration.ArtDeco"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Fireplace_Chimney_Ext",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Fireplace_Chimney_Ext"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Fireplace_Chimney_Ext"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Jimk_Steel_Fireplace_Chimney_Ext"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "GenericDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Fireplace_Chimney_Cap",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Fireplace_Chimney_Cap"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Fireplace_Chimney_Cap"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Jimk_Steel_Fireplace_Chimney_Cap"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "GenericDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Fireplace_Chimney_Cap_Half",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Fireplace_Chimney_Cap_Half"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Fireplace_Chimney_Cap_Half"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Jimk_Steel_Fireplace_Chimney_Cap_Half"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "GenericDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Crate",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Crate"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Crate"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Jimk_Steel_Crate"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Inventory": {
+                "RowName": "Storage_Metal_Crate_Medium"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "HeavyDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Crate_Wall_Mount",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Crate_Wall_Mount"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Crate_Wall_Mount"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Jimk_Steel_Crate_Wall_Mount"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Inventory": {
+                "RowName": "Storage_Metal_Crate_Medium"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "HeavyDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Cupboard",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Cupboard"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Cupboard"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Jimk_Steel_Cupboard"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Inventory": {
+                "RowName": "Storage_Metal_Cupboard"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Item.Deployable.Storage"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Fireplace",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Fireplace"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Fireplace"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Jimk_Steel_Fireplace"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Inventory": {
+                "RowName": "Inventory_Fireplace"
+            },
+            "Processing": {
+                "RowName": "Fireplace"
+            },
+            "Thermal": {
+                "RowName": "Fireplace"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Generator": {
+                "RowName": "Basic_Energy_Generator"
+            },
+            "Weight": {
+                "RowName": "HeavyDeployable"
+            },
+            "Audio": {
+                "RowName": "StoneDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    },
+                    {
+                        "TagName": "Traits.Inventory"
+                    },
+                    {
+                        "TagName": "Traits.Processing"
+                    },
+                    {
+                        "TagName": "Traits.Thermal"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Bed",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Bed"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Bed"
+            },
+            "Interactable": {
+                "RowName": "Bed"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Jimk_Steel_Bed"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Weight": {
+                "RowName": "MediumDeployable"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseSleepQuality_%\")": 250,
+                "(Value=\"BaseSleepModifierDurationSeconds_+\")": 1200
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Deployable.Bed"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Item.Deployable.Bed"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Angle",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Wall"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Wall_Angle"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Hitable": {
+                "RowName": "Building"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Building"
+            },
+            "Buildable": {
+                "RowName": "Jimk_Steel_Wall_Angle"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Audio.Shelter"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Audio.Shelter"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Hitable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Roof_Corner",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Wall"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Roof_Corner"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Hitable": {
+                "RowName": "Building"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Building"
+            },
+            "Buildable": {
+                "RowName": "Jimk_Steel_Roof_Corner"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "Default"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter"
+                    },
+                    {
+                        "TagName": "Building.Iron"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter"
+                    },
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Hitable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Door",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Door"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Door"
+            },
+            "Interactable": {
+                "RowName": "Door"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Jimk_Steel_Door"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "AdditionalStats": {
+                "(Value=\"BaseBuildingInsulation_+\")": 15,
+                "(Value=\"BaseTreeCollisionDamageResistance_%\")": 100,
+                "(Value=\"BaseWindDamageResistance_%\")": 100,
+                "(Value=\"BaseMeleeDamageResistance_%\")": 100,
+                "(Value=\"BaseFireDamageResistance_%\")": 100,
+                "(Value=\"BaseProjectileDamageResistance_%\")": 100,
+                "(Value=\"BasePhysicalDamageResistance_%\")": 100,
+                "(Value=\"BaseCollisionDamageResistance_%\")": 100
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Floor_Half",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Floor_Half"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Floor_Half"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Hitable": {
+                "RowName": "Building"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Building"
+            },
+            "Buildable": {
+                "RowName": "Jimk_Steel_Floor_Half"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "Default"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter"
+                    },
+                    {
+                        "TagName": "Building.Iron"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter"
+                    },
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Hitable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Floor",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Floor"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Floor"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Hitable": {
+                "RowName": "Building"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Building"
+            },
+            "Buildable": {
+                "RowName": "Jimk_Steel_Floor"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Audio.Shelter"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Audio.Shelter"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Hitable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Wall",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Wall"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Wall"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Hitable": {
+                "RowName": "Building"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Building"
+            },
+            "Buildable": {
+                "RowName": "Jimk_Steel_Wall"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Audio.Shelter"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Audio.Shelter"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Hitable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_HalfPitch_Roof",
+            "Meshable": {
+                "RowName": "Mesh_Iron_Kit"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_HalfPitch_Roof"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Hitable": {
+                "RowName": "Building"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Building"
+            },
+            "Buildable": {
+                "RowName": "Jimk_Steel_HalfPitch_Roof"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter"
+                    },
+                    {
+                        "TagName": "Building.Iron"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter"
+                    },
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Hitable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Ramp",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Ramp"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Ramp"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Hitable": {
+                "RowName": "Building"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Building"
+            },
+            "Buildable": {
+                "RowName": "Jimk_Steel_Ramp"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Audio.Shelter"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Audio.Shelter"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Hitable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Roof",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Roof"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Roof"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Hitable": {
+                "RowName": "Building"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Building"
+            },
+            "Buildable": {
+                "RowName": "Jimk_Steel_Roof"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Audio.Shelter"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Audio.Shelter"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Hitable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Beam",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Beam"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Beam"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Hitable": {
+                "RowName": "Building"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Building"
+            },
+            "Buildable": {
+                "RowName": "Jimk_Steel_Beam"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter"
+                    },
+                    {
+                        "TagName": "Building.Iron"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter"
+                    },
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Hitable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Frame",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Frame"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Frame"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Hitable": {
+                "RowName": "Building"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Building"
+            },
+            "Buildable": {
+                "RowName": "Jimk_Steel_Frame"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Audio.Shelter"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Audio.Shelter"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Hitable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Ladders",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Ladders"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Ladders"
+            },
+            "Interactable": {
+                "RowName": "Deployable"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Jimk_Steel_Ladders"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Railing",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Railing"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Railing"
+            },
+            "Interactable": {
+                "RowName": "Deployable_NoInteract"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Deployable"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Deployable": {
+                "RowName": "Jimk_Steel_Railing"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter.Check"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Deployable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Jimk_Steel_Steps",
+            "Meshable": {
+                "RowName": "Mesh_Jimk_Steel_Ramp"
+            },
+            "Itemable": {
+                "RowName": "Item_Jimk_Steel_Steps"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Hitable": {
+                "RowName": "Building"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Building"
+            },
+            "Buildable": {
+                "RowName": "Jimk_Steel_Steps"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Durable": {
+                "RowName": "Jimk_Titanium_Items"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Audio.Shelter"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Audio.Shelter"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Hitable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
+        },
+        {
+            "Name": "Reinforced_Int_Floor",
+            "Meshable": {
+                "RowName": "Mesh_Reinforced_Int_Floor"
+            },
+            "Itemable": {
+                "RowName": "Item_Reinforced_Int_Floor"
+            },
+            "Interactable": {
+                "RowName": "Item"
+            },
+            "Hitable": {
+                "RowName": "Building"
+            },
+            "Focusable": {
+                "RowName": "Focusable_1H"
+            },
+            "Highlightable": {
+                "RowName": "Generic"
+            },
+            "Actionable": {
+                "RowName": "Building"
+            },
+            "Buildable": {
+                "RowName": "Reinforced_Int_Floor"
+            },
+            "Usable": {
+                "RowName": "Place"
+            },
+            "Durable": {
+                "RowName": "Stone_Building"
+            },
+            "Decayable": {
+                "RowName": "Decay_General"
+            },
+            "Audio": {
+                "RowName": "MetalDeployable"
+            },
+            "Manual_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter"
+                    },
+                    {
+                        "TagName": "Building.Iron"
+                    }
+                ]
+            },
+            "Generated_Tags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Audio.Shelter"
+                    },
+                    {
+                        "TagName": "Building.Iron"
+                    },
+                    {
+                        "TagName": "Traits.Meshable"
+                    },
+                    {
+                        "TagName": "Traits.Itemable"
+                    },
+                    {
+                        "TagName": "Traits.Interactable"
+                    },
+                    {
+                        "TagName": "Traits.Hitable"
+                    },
+                    {
+                        "TagName": "Traits.Highlightable"
+                    },
+                    {
+                        "TagName": "Traits.Actionable"
+                    },
+                    {
+                        "TagName": "Traits.Buildable"
+                    },
+                    {
+                        "TagName": "Traits.Usable"
+                    },
+                    {
+                        "TagName": "Traits.Durable"
+                    }
+                ],
+                "ParentTags": []
+            }
         }
     ]
 }

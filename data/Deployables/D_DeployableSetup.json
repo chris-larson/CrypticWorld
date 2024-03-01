@@ -602,7 +602,8 @@
             "SupportsCustomRotation": false,
             "SnapBehaviour": "WorldAndSnap",
             "SnapActorTags": [
-                "Building_Floor"
+                "Building_Floor",
+                "Building_Beam"
             ],
             "SnapSocketsOrTags": [
                 "RailingSocket1",
@@ -644,7 +645,8 @@
             "SupportsCustomRotation": false,
             "SnapBehaviour": "WorldAndSnap",
             "SnapActorTags": [
-                "Building_Floor"
+                "Building_Floor",
+                "Building_Beam"
             ],
             "SnapSocketsOrTags": [
                 "RailingSocket1",
@@ -1834,7 +1836,8 @@
             "SupportsCustomRotation": false,
             "SnapBehaviour": "WorldAndSnap",
             "SnapActorTags": [
-                "Building_Floor"
+                "Building_Floor",
+                "Building_Beam"
             ],
             "SnapSocketsOrTags": [
                 "RailingSocket1",
@@ -1876,7 +1879,8 @@
             "SupportsCustomRotation": false,
             "SnapBehaviour": "WorldAndSnap",
             "SnapActorTags": [
-                "Building_Floor"
+                "Building_Floor",
+                "Building_Beam"
             ],
             "SnapSocketsOrTags": [
                 "RailingSocket1",
@@ -1918,7 +1922,8 @@
             "SupportsCustomRotation": false,
             "SnapBehaviour": "WorldAndSnap",
             "SnapActorTags": [
-                "Building_Floor"
+                "Building_Floor",
+                "Building_Beam"
             ],
             "SnapSocketsOrTags": [
                 "RailingSocket1",
@@ -2940,7 +2945,8 @@
             "SupportsCustomRotation": false,
             "SnapBehaviour": "WorldAndSnap",
             "SnapActorTags": [
-                "Building_Floor"
+                "Building_Floor",
+                "Building_Beam"
             ],
             "SnapSocketsOrTags": [
                 "RailingSocket1",
@@ -7053,6 +7059,608 @@
             ],
             "IgnoreCollisionWhenSnapped": true,
             "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Cap",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Cap_Jimk_Steel.BP_Building_Beam_Cap_Jimk_Steel_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Beam_Cap.Item_Jimk_Steel_Beam_Cap",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Cap-DeployableName\", \"Beam Cap\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Beam_Cap.SM_Jimk_Steel_Beam_Cap",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Beam"
+            ],
+            "SnapSocketsOrTags": [
+                "BeamCap1",
+                "BeamCap2",
+                "BeamCap3"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Cap_Large",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Cap_Large_Jimk_Steel.BP_Building_Beam_Cap_Large_Jimk_Steel_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Beam_Cap_Large.Item_Jimk_Steel_Beam_Cap_Large",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Cap_Large-DeployableName\", \"Beam Cap Large\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Beam_Cap_Large.SM_Jimk_Steel_Beam_Cap_Large",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Beam"
+            ],
+            "SnapSocketsOrTags": [
+                "BeamCap1",
+                "BeamCap2",
+                "BeamCap3"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Plate",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Plate_Jimk_Steel.BP_Building_Beam_Plate_Jimk_Steel_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Beam_Connector.Item_Jimk_Steel_Beam_Connector",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Plate-DeployableName\", \"Beam Plate\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Beam_Connect.SM_Jimk_Steel_Beam_Connect",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Beam"
+            ],
+            "SnapSocketsOrTags": [
+                "BeamPlate1",
+                "BeamPlate2",
+                "BeamPlate3"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Plate_90DEG",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Plate_Jimk_Steel_90DEG.BP_Building_Beam_Plate_Jimk_Steel_90DEG_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Beam_Connector_90DEG.Item_Jimk_Steel_Beam_Connector_90DEG",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Plate_90DEG-DeployableName\", \"Beam Plate 90 Deg\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Beam_Connect_90DEG.SM_Jimk_Steel_Beam_Connect_90DEG",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Beam"
+            ],
+            "SnapSocketsOrTags": [
+                "BeamPlate1",
+                "BeamPlate2",
+                "BeamPlate3"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Plate_Top",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Plate_Jimk_Steel_Top.BP_Building_Beam_Plate_Jimk_Steel_Top_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Beam_Connector_Top.Item_Jimk_Steel_Beam_Connector_Top",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Plate_Top-DeployableName\", \"Beam Plate Top\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Beam_Connect_Top.SM_Jimk_Steel_Beam_Connect_Top",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Beam"
+            ],
+            "SnapSocketsOrTags": [
+                "BeamPlate1",
+                "BeamPlate2",
+                "BeamPlate3"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Plate_Bottom",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Plate_Jimk_Steel_Bottom.BP_Building_Beam_Plate_Jimk_Steel_Bottom_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Beam_Connector_Bottom.Item_Jimk_Steel_Beam_Connector_Bottom",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Plate_Bottom-DeployableName\", \"Beam Plate Bottom\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Beam_Connect_Bottom.SM_Jimk_Steel_Beam_Connect_Bottom",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Beam"
+            ],
+            "SnapSocketsOrTags": [
+                "BeamPlate1",
+                "BeamPlate2",
+                "BeamPlate3"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Plate_Left",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Plate_Jimk_Steel_Left.BP_Building_Beam_Plate_Jimk_Steel_Left_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Beam_Connector_Left.Item_Jimk_Steel_Beam_Connector_Left",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Plate_Left-DeployableName\", \"Beam Plate Left\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Beam_Connect_Left.SM_Jimk_Steel_Beam_Connect_Left",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Beam"
+            ],
+            "SnapSocketsOrTags": [
+                "BeamPlate1",
+                "BeamPlate2",
+                "BeamPlate3"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Plate_Right",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Plate_Jimk_Steel_Right.BP_Building_Beam_Plate_Jimk_Steel_Right_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Beam_Connector_Right.Item_Jimk_Steel_Beam_Connector_Right",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Plate_Right-DeployableName\", \"Beam Plate Right\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Beam_Connect_Right.SM_Jimk_Steel_Beam_Connect_Right",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Beam"
+            ],
+            "SnapSocketsOrTags": [
+                "BeamPlate1",
+                "BeamPlate2",
+                "BeamPlate3"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Plate_Corner_A",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Plate_Jimk_Steel_Corner_A.BP_Building_Beam_Plate_Jimk_Steel_Corner_A_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Beam_Connector_Corner_A.Item_Jimk_Steel_Beam_Connector_Corner_A",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Plate_Corner_A-DeployableName\", \"Beam Plate Corner A\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Beam_Connect_Corner_A.SM_Jimk_Steel_Beam_Connect_Corner_A",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Beam"
+            ],
+            "SnapSocketsOrTags": [
+                "BeamPlate1",
+                "BeamPlate2",
+                "BeamPlate3"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Plate_Corner_B",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Plate_Jimk_Steel_Corner_B.BP_Building_Beam_Plate_Jimk_Steel_Corner_B_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Beam_Connector_Corner_A.Item_Jimk_Steel_Beam_Connector_Corner_A",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Plate_Corner_B-DeployableName\", \"Beam Plate Corner B\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Beam_Connect_Corner_B.SM_Jimk_Steel_Beam_Connect_Corner_B",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Beam"
+            ],
+            "SnapSocketsOrTags": [
+                "BeamPlate1",
+                "BeamPlate2",
+                "BeamPlate3"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Plate_Corner_C",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Plate_Jimk_Steel_Corner_C.BP_Building_Beam_Plate_Jimk_Steel_Corner_C_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Beam_Connector_Corner_A.Item_Jimk_Steel_Beam_Connector_Corner_A",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Plate_Corner_C-DeployableName\", \"Beam Plate Corner C\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Beam_Connect_Corner_C.SM_Jimk_Steel_Beam_Connect_Corner_C",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Beam"
+            ],
+            "SnapSocketsOrTags": [
+                "BeamPlate1",
+                "BeamPlate2",
+                "BeamPlate3"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Plate_Corner_D",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Plate_Jimk_Steel_Corner_D.BP_Building_Beam_Plate_Jimk_Steel_Corner_D_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Beam_Connector_Corner_A.Item_Jimk_Steel_Beam_Connector_Corner_A",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Plate_Corner_D-DeployableName\", \"Beam Plate Corner D\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Beam_Connect_Corner_D.SM_Jimk_Steel_Beam_Connect_Corner_D",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Beam"
+            ],
+            "SnapSocketsOrTags": [
+                "BeamPlate1",
+                "BeamPlate2",
+                "BeamPlate3"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Plate_Coupling",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Plate_Jimk_Steel_Coupling.BP_Building_Beam_Plate_Jimk_Steel_Coupling_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Beam_Coupling.Item_Jimk_Steel_Beam_Coupling",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Plate_Corner_D-DeployableName\", \"Beam Plate Coupling\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Beam_Connect_Coupling.SM_Jimk_Steel_Beam_Connect_Coupling",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Beam"
+            ],
+            "SnapSocketsOrTags": [
+                "BeamCap1",
+                "BeamCap2",
+                "BeamCap3"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Plate_45DEG",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Building_Beam_Plate_Jimk_Steel_45DEG.BP_Building_Beam_Plate_Jimk_Steel_45DEG_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Beam_Connector_45DEG.Item_Jimk_Steel_Beam_Connector_45DEG",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Plate_45DEG-DeployableName\", \"Beam Plate 45deg\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Beam_Connect_45DEG.SM_Jimk_Steel_Beam_Connect_45DEG",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Beam"
+            ],
+            "SnapSocketsOrTags": [
+                "BeamPlate1",
+                "BeamPlate2",
+                "BeamPlate3"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Shelf",
+            "DeployableBlueprint": "/Game/BP/BP_Jimk_Steel_WallShelf.BP_Jimk_Steel_WallShelf_C",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Shelf.SM_Jimk_Steel_Shelf",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Shelf-DeployableName\", \"Steel Shelf\")",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Shelf.Item_Jimk_Steel_Shelf",
+            "MaxSurfaceSnapAngle": 180,
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Jimk_Steel_Shelf_Small",
+            "DeployableBlueprint": "/Game/BP/BP_Jimk_Steel_WallShelf_Small.BP_Jimk_Steel_WallShelf_Small_C",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Shelf_Small.SM_Jimk_Steel_Shelf_Small",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Shelf_Small-DeployableName\", \"Small Steel Shelf\")",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Shelf.Item_Jimk_Steel_Shelf",
+            "MaxSurfaceSnapAngle": 180,
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Sign",
+            "DeployableBlueprint": "/Game/BP/BP_Jimk_Steel_Wall_Sign.BP_Jimk_Steel_Wall_Sign_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Sign_Large.Item_Jimk_Steel_Sign_Large",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Wall_Sign-DeployableName\", \"Large Wall Sign\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Sign.SM_Jimk_Steel_Sign",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Jimk_Steel_Wall_Sign_Small",
+            "DeployableBlueprint": "/Game/BP/BP_Jimk_Steel_Wall_Sign_Small.BP_Jimk_Steel_Wall_Sign_Small_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Sign_Small.Item_Jimk_Steel_Sign_Small",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Wall_Sign_Small-DeployableName\", \"Small Wall Sign\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Sign_Small.SM_Jimk_Steel_Sign_Small",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "WorldPlacementType": "WallPlacement",
+            "bCanAffectNavigation": false,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Jimk_Steel_Fireplace_Chimney_Ext",
+            "DeployableBlueprint": "/Game/BP/BP_Jimk_Steel_Fireplace_Chimney_Ext.BP_Jimk_Steel_Fireplace_Chimney_Ext_C",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Fireplace_Extension.SM_Jimk_Steel_Fireplace_Extension",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Fireplace",
+                "Chimney"
+            ],
+            "SnapSocketsOrTags": [
+                "Socket_Chimney"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Jimk_Steel_Fireplace_Chimney_Cap",
+            "DeployableBlueprint": "/Game/BP/BP_Jimk_Steel_Fireplace_Chimney_Cap.BP_Jimk_Steel_Fireplace_Chimney_Cap_C",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Fireplace_Extension.SM_Jimk_Steel_Fireplace_Extension",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Fireplace",
+                "Chimney"
+            ],
+            "SnapSocketsOrTags": [
+                "Socket_Chimney"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Jimk_Steel_Fireplace_Chimney_Cap_Half",
+            "DeployableBlueprint": "/Game/BP/BP_Jimk_Steel_Fireplace_Chimney_Cap_Half.BP_Jimk_Steel_Fireplace_Chimney_Cap_Half_C",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Fireplace_Short_Cap.SM_Jimk_Steel_Fireplace_Short_Cap",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Fireplace",
+                "Chimney"
+            ],
+            "SnapSocketsOrTags": [
+                "Socket_Chimney"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": -1
+        },
+        {
+            "Name": "Jimk_Steel_Cupboard",
+            "DeployableBlueprint": "/Game/BP/BP_Jimk_Steel_Cupboard.BP_Jimk_Steel_Cupboard_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Cupboard_Metal.SM_DEP_Cupboard_Metal",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SnapToSurfaceNormal": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Jimk_Steel_Crate",
+            "DeployableBlueprint": "/Game/BP/BP_Jimk_Steel_Crate.BP_Jimk_Steel_Crate_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Crate_Med_Metal.SM_DEP_Crate_MED_Metal",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SnapToSurfaceNormal": false,
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Jimk_Steel_Crate_Wall_Mount",
+            "DeployableBlueprint": "/Game/BP/BP_Jimk_Steel_Crate_Wall_Mount.BP_Jimk_Steel_Crate_Wall_Mount_C",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Metal_Crate_Wall_Mount.SM_Jimk_Steel_Metal_Crate_Wall_Mount",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "WorldPlacementType": "WallPlacement",
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Jimk_Steel_Fireplace",
+            "DeployableBlueprint": "/Game/BP/BP_Jimk_Steel_Fireplace.BP_Jimk_Steel_Fireplace_C",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Fireplace_Base.SM_Jimk_Steel_Fireplace_Base",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Building_Floor"
+            ],
+            "SnapSocketsOrTags": [
+                "FireplaceSocket1",
+                "FireplaceSocket2",
+                "FireplaceSocket3",
+                "FireplaceSocket4"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Bed",
+            "DeployableBlueprint": "/Game/BP/BP_Jimk_Steel_Bed.BP_Jimk_Steel_Bed_C",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Bed.SM_Jimk_Steel_Bed",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "MaxRestackingAmount": 2
+        },
+        {
+            "Name": "Jimk_Steel_Railing",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Railing_Jimk_Steel.BP_Railing_Jimk_Steel_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Railing.Item_Jimk_Steel_Railing",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Railing-DeployableName\", \"Floor\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Railing.SM_Jimk_Steel_Railing",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Floor",
+                "Building_Beam"
+            ],
+            "SnapSocketsOrTags": [
+                "RailingSocket1",
+                "RailingSocket2",
+                "RailingSocket3",
+                "RailingSocket4"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Railing_Small",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Railing_Jimk_Steel_Small.BP_Railing_Jimk_Steel_Small_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Railing_Small.Item_Jimk_Steel_Railing_Small",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Railing-DeployableName\", \"Floor Small\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Railing_Small.SM_Jimk_Steel_Railing_Small",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Floor"
+            ],
+            "SnapSocketsOrTags": [
+                "RailingSocket1",
+                "RailingSocket2",
+                "RailingSocket3",
+                "RailingSocket4"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Railing_Mini",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Railing_Jimk_Steel_Mini.BP_Railing_Jimk_Steel_Mini_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Railing_Mini.Item_Jimk_Steel_Railing_Mini",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Railing-DeployableName\", \"Floor Mini\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Railing_Mini.SM_Jimk_Steel_Railing_Mini",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap"
+        },
+        {
+            "Name": "Jimk_Steel_Railing_Concrete",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Railing_Jimk_Steel_Concrete.BP_Railing_Jimk_Steel_Concrete_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Railing_Concrete.Item_Jimk_Steel_Railing_Concrete",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Railing_Concrete-DeployableName\", \"Floor Concrete Clone\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Railing_Concrete.SM_Jimk_Steel_Railing_Concrete",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Floor"
+            ],
+            "SnapSocketsOrTags": [
+                "RailingSocket1",
+                "RailingSocket2",
+                "RailingSocket3",
+                "RailingSocket4"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Railing_Stairs",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Railing_Jimk_Steel_Stairs.BP_Railing_Jimk_Steel_Stairs_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Railing_Stairs.Item_Jimk_Steel_Railing_Stairs",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Jimk_Steel_Railing_Stairs-DeployableName\", \"Stairs\")",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Railing_Stairs.SM_Jimk_Steel_Railing_Stairs",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Building_Stairs"
+            ],
+            "SnapSocketsOrTags": [
+                "RailingSocket1",
+                "RailingSocket2",
+                "RailingSocket3",
+                "RailingSocket4"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Jimk_Steel_Door",
+            "DeployableBlueprint": "/Game/BP/BP_Jimk_Steel_Door.BP_Jimk_Steel_Door_C",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Door.SM_Jimk_Steel_Door",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_IRON_DEPLOY.SFX_BLD_IRON_DEPLOY",
+            "AudioOcclusionAmount": 0.5,
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "door_frame"
+            ],
+            "SnapSocketsOrTags": [
+                "door",
+                "door_b"
+            ],
+            "UseSnapSocketRotation": true,
+            "UseSnapSocketScale": true
+        },
+        {
+            "Name": "Jimk_Steel_Ladder",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Metal_Ladder_Jimk_Steel.BP_Metal_Ladder_Jimk_Steel_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Ladder.Item_Jimk_Steel_Ladder",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Ladder.SM_Jimk_Steel_Ladder",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "MaxSurfaceSnapAngle": 180,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "SnapActorTags": [
+                "Ladder",
+                "Building_Floor"
+            ],
+            "SnapSocketsOrTags": [
+                "LadderSocket1",
+                "LadderSocket2",
+                "LadderSocket3",
+                "LadderSocket4"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": 10
+        },
+        {
+            "Name": "Jimk_Steel_Ladder_Top",
+            "DeployableBlueprint": "/Game/BP/Building/Steel/BP_Metal_Ladder_Jimk_Steel_Top.BP_Metal_Ladder_Jimk_Steel_Top_C",
+            "DeployableIcon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Ladder_Top.Item_Jimk_Steel_Ladder_Top",
+            "PreviewStaticMesh": "/Game/New_Metal_Buildables/Meshes/SM_Jimk_Steel_Ladder_Top.SM_Jimk_Steel_Ladder_Top",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "MaxSurfaceSnapAngle": 180,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "WorldAndSnap",
+            "DeployCollisionExtentOffset": {
+                "X": -30,
+                "Y": 0,
+                "Z": 10
+            },
+            "SnapActorTags": [
+                "Ladder"
+            ],
+            "SnapSocketsOrTags": [
+                "LadderSocket1",
+                "LadderSocket2",
+                "LadderSocket3",
+                "LadderSocket4"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true,
+            "MaxRestackingAmount": 10
         }
     ]
 }

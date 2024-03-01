@@ -202,7 +202,8 @@
             "bIsOptional": true
         },
         {
-            "Name": "Water_Pump_Energy"
+            "Name": "Water_Pump_Energy",
+            "ResourceFlowRate": 500
         },
         {
             "Name": "Exotic_Electric_Drill",

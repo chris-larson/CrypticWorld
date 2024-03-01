@@ -16206,6 +16206,240 @@
             "Icon": "/Game/ASS/WEP/SK_GUN_HuntingRifle/ITEM_Rifle_Hunting_Scoped_20x.ITEM_Rifle_Hunting_Scoped_20x",
             "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Scope_Rifle_20x-Description\", \"Hunting Rifle with a 20x scope Attachment.\")",
             "Weight": 1000
+        },
+        {
+            "Name": "Item_Jimk_Steel_Cap",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Cap-DisplayName\", \"Steel Cap\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Beam_Cap.Item_Jimk_Steel_Beam_Cap",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Cap-Description\", \"Steel Cap to bind beams together.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Cap-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 100,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Jimk_Steel_HalfPitch_Roof",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_HalfPitch_Roof-DisplayName\", \"Steel Halfpitches\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/ITEM_Jimk_Steel_Half_Pitch_2.ITEM_Jimk_Steel_Half_Pitch_2",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_HalfPitch_Roof-Description\", \"Shallow-sloped roof building elements.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_HalfPitch_Roof-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 100,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Jimk_Steel_Roof_Corner",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Roof_Corner-DisplayName\", \"Steel Roof Corner\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Wall_Roof_Corner_0.Item_Jimk_Steel_Wall_Roof_Corner_0",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Roof_Corner-Description\", \"A steel insert for angled roofs.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Roof_Corner-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 100,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Jimk_Steel_Shelf",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Shelf-DisplayName\", \"Steel Wall Shelf\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Shelf.Item_Jimk_Steel_Shelf",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Shelf-Description\", \"A solid steel shelf.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Shelf-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 1000,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Jimk_Steel_Wall_Sign",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Wall_Sign-DisplayName\", \"Solid Steel Sign\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Sign_Large.Item_Jimk_Steel_Sign_Large",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Wall_Sign-Description\", \"Places writeable signage.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Wall_Sign-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 50,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Jimk_Steel_Fireplace_Chimney_Ext",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Fireplace_Chimney_Ext-DisplayName\", \"Chimney Extension\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Fireplace_Extension_Cap.Item_Jimk_Steel_Fireplace_Extension_Cap",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Fireplace_Chimney_Ext-Description\", \"Send the smoke skyward.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Crate-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 1500,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Jimk_Steel_Fireplace_Chimney_Cap",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Fireplace_Chimney_Cap-DisplayName\", \"Chimney Cap\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Fireplace_Extension_Cap.Item_Jimk_Steel_Fireplace_Extension_Cap",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Fireplace_Chimney_Cap-Description\", \"The final step in a fireplace.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Crate-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 1500,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Jimk_Steel_Fireplace_Chimney_Cap_Half",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Fireplace_Chimney_Cap_Half-DisplayName\", \"Chimney Cap Half\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Fireplace_Short_Cap.Item_Jimk_Steel_Fireplace_Short_Cap",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Fireplace_Chimney_Cap_Half-Description\", \"The final half-sized step in a fireplace.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Crate-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 1000,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Jimk_Steel_Crate",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Crate-DisplayName\", \"Steel Crate\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Crate.Item_Jimk_Steel_Crate",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Crate-Description\", \"A strong steel storage unit.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Crate-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 400,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Jimk_Steel_Crate_Wall_Mount",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Crate_Wall_Mount-DisplayName\", \"Steel Crate on shelf\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Crate_Wall_Mount.Item_Jimk_Steel_Crate_Wall_Mount",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Crate_Wall_Mount-Description\", \"A strong steel storage unit that attaches to the wall.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Crate_Wall_Mount-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 400,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Jimk_Steel_Cupboard",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Cupboard-DisplayName\", \"Steel Cupboard\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Cupboard.Item_Jimk_Steel_Cupboard",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Cupboard-Description\", \"A solid steel storage solution.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Cupboard-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 500,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Jimk_Steel_Fireplace",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Fireplace-DisplayName\", \"Steel Fireplace\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Fireplace.Item_Jimk_Steel_Fireplace",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Fireplace-Description\", \"Cooks food swiftly and safely.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Fireplace-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 2000,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Jimk_Steel_Bed",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Bed-DisplayName\", \"Steel Framed Bed\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Bed.Item_Jimk_Steel_Bed",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Bed-Description\", \"Once placed in shelter, a bed can be set as a respawn location. Can also be used to sleep through the night.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Bed-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 1000,
+            "MaxStack": 20
+        },
+        {
+            "Name": "Item_Jimk_Steel_Wall_Angle",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Wall_Angle-DisplayName\", \"Steel Wall Angled\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Wall_Angle_L.Item_Jimk_Steel_Wall_Angle_L",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Wall_Angle-Description\", \"Moulded inserts for gables and other angular constructions..\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Wall_Angle-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 1500,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Jimk_Steel_Steps",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Steps-DisplayName\", \"Steel Steps\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Stairs_Small.Item_Jimk_Steel_Stairs_Small",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Steps-Description\", \"Hardest Steel Stair pieces.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Steps-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 1000,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Jimk_Steel_Floor",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Floor-DisplayName\", \"Steel Floor\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Floor_Solid_01.Item_Jimk_Steel_Floor_Solid_01",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Floor-Description\", \"Hardest Steel Flooring pieces.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Floor-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 2000,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Jimk_Steel_Floor_Half",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Floor_Half-DisplayName\", \"Steel Halfpieces\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Half_Floor.Item_Jimk_Steel_Half_Floor",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Floor_Half-Description\", \"Hardest Steel Half- and quarter-sized building elements for detailed construction work.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Floor_Half-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 1000,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Jimk_Steel_Door",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Door-DisplayName\", \"Steel Door\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Door.Item_Jimk_Steel_Door",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Door-Description\", \"Door made from the hardest Steel.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Door-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 1000,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Jimk_Steel_Wall",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Wall-DisplayName\", \"Steel Wall\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Wall_Solid_Ver_01.Item_Jimk_Steel_Wall_Solid_Ver_01",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Wall-Description\", \"Hardest Steel Wall pieces.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Wall-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 2000,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Jimk_Steel_Ramp",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Ramp-DisplayName\", \"Steel Ramp\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Ramp_01.Item_Jimk_Steel_Ramp_01",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Ramp-Description\", \"Hardest Steel Ramp pieces.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Ramp-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 2000,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Jimk_Steel_Roof",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Roof-DisplayName\", \"Steel Roof Pieces\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Roof.Item_Jimk_Steel_Roof",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Roof-Description\", \"Hardest Steel Floor, Ramp, Wall, Peak Roof pieces.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Roof-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 2000,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Jimk_Steel_Beam",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Beam-DisplayName\", \"Steel Beam\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_SteelBeam_vertical_Ver_01.Item_Jimk_SteelBeam_vertical_Ver_01",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Beam-Description\", \"Hardest Steel Beams.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Beam-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 500,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Jimk_Steel_Frame",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Frame-DisplayName\", \"Steel Frame\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Frame_Beams_Solid_Ver_01.Item_Jimk_Steel_Frame_Beams_Solid_Ver_01",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Frame-Description\", \"Hardest Steel Frame.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Frame-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 4000,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Jimk_Steel_Railing",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Railing-DisplayName\", \"Steel Railing\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Railing.Item_Jimk_Steel_Railing",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Railing-Description\", \"Steel railing to keep you from falling.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Frame-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 500,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Jimk_Steel_Ladders",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Ladders-DisplayName\", \"Steel Ladder\")",
+            "Icon": "/Game/New_Metal_Buildables/Meshes/Icons/Item_Jimk_Steel_Ladder.Item_Jimk_Steel_Ladder",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Ladders-Description\", \"A sturdy steel ladder for climbing.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Jimk_Steel_Frame-FlavorText\", \"Designed by Jimk72.\")",
+            "Weight": 500,
+            "MaxStack": 100
+        },
+        {
+            "Name": "Item_Reinforced_Int_Floor",
+            "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Reinforced_Int_Floor-DisplayName\", \"Iron reinforced interior floor\")",
+            "Icon": "/Game/BP/Item_BLD_Floor_Iron_Reinforced_Wood.Item_BLD_Floor_Iron_Reinforced_Wood",
+            "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Reinforced_Int_Floor-Description\", \"Refined interior floor, reinforced with Iron.\")",
+            "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Reinforced_Int_Floor-FlavorText\", \"Very durable and strong like stone.\")",
+            "Weight": 100,
+            "MaxStack": 100
         }
     ]
 }
