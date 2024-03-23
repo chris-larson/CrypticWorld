@@ -78,7 +78,7 @@
         {
             "Name": "Basic_Biofuel_Energy_Generator",
             "Resource": "Energy",
-            "GenerationRate": 5000
+            "GenerationRate": 20000
         },
         {
             "Name": "Kit_Generator_Energy_Generator",
@@ -101,7 +101,7 @@
         {
             "Name": "Free_Energy_Generator",
             "Resource": "Energy",
-            "GenerationRate": 2500
+            "GenerationRate": 5000
         },
         {
             "Name": "Free_Energy_Generator_Auto",
@@ -163,7 +163,7 @@
             ],
             "RequiresManualActivation": false,
             "OutOfFuelThresholdPercent": -1,
-            "GenerationRate": 10000
+            "GenerationRate": 1000
         },
         {
             "Name": "Dehumidifier",
@@ -380,8 +380,7 @@
         },
         {
             "Name": "Water_Purifier",
-            "Resource": "Energy",
-            "GenerationRate": 500,
+            "GenerationRate": 25000,
             "TransmutableItems": [
                 {
                     "RowName": "Charcoal",
@@ -389,17 +388,6 @@
                 }
             ],
             "RequiresManualActivation": false
-        },
-        {
-            "Name": "Water_PurifierT2",
-            "Resource": "Water",
-            "GenerationRate": 500,
-            "TransmutableItems": [
-                {
-                    "RowName": "Sulfur",
-                    "DataTableName": "D_ItemsStatic"
-                }
-            ]
         },
         {
             "Name": "T3_Cleaning_Device",
@@ -454,6 +442,32 @@
             ],
             "RequiresManualActivation": false,
             "OutOfFuelThresholdPercent": -1
+        },
+        {
+            "Name": "Jimk_Water_Extractor_Electric",
+            "Resource": "Water",
+            "GenerationRate": 2000,
+            "GenerationRatio": 2,
+            "TransmutableResources": [
+                "Energy"
+            ],
+            "RequiresManualActivation": false,
+            "OutOfFuelThresholdPercent": -1
+        },
+        {
+            "Name": "Jimk_Large_WindTurbine",
+            "Resource": "Energy",
+            "GenerationRate": 7000
+        },
+        {
+            "Name": "Water_Pump_Generator_Turbo",
+            "Resource": "Water",
+            "GenerationRate": 5000
+        },
+        {
+            "Name": "WaterWheel_Generator_Turbo",
+            "Resource": "Energy",
+            "GenerationRate": 8000
         }
     ]
 }

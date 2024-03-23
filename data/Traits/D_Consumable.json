@@ -31,9 +31,6 @@
         {
             "Name": "BasicWater",
             "Modifier": {
-                "Modifier": {
-                    "RowName": "Drink_Cooling"
-                },
                 "ModifierLifetime": 15
             },
             "DescriptionText": "Can be placed in a Suit Water Slot to Auto Consume."
@@ -63,9 +60,6 @@
                 "(Value=\"BaseUnitsConsumed_+\")": 200
             },
             "Modifier": {
-                "Modifier": {
-                    "RowName": "Drink_Cooling"
-                },
                 "ModifierLifetime": 15
             },
             "DescriptionText": "Can be placed in a Suit Water Slot to Auto Consume."
@@ -85,9 +79,6 @@
                 "(Value=\"BaseUnitsConsumed_+\")": 200
             },
             "Modifier": {
-                "Modifier": {
-                    "RowName": "Drink_Cooling"
-                },
                 "ModifierLifetime": 15
             }
         },
@@ -98,9 +89,6 @@
                 "(Value=\"BaseUnitsConsumed_+\")": 200
             },
             "Modifier": {
-                "Modifier": {
-                    "RowName": "Drink_Cooling"
-                },
                 "ModifierLifetime": 15
             }
         },
@@ -153,9 +141,6 @@
                 "(Value=\"BaseUnitsConsumed_+\")": 100
             },
             "Modifier": {
-                "Modifier": {
-                    "RowName": "Drink_Cooling"
-                },
                 "ModifierLifetime": 15
             }
         },
@@ -240,7 +225,7 @@
             },
             "Byproducts": [
                 {
-                    "RowName": "Glass_Bottle",
+                    "RowName": "Glass_Bottle_Beer",
                     "DataTableName": "D_ItemTemplate"
                 }
             ]
@@ -258,7 +243,7 @@
             },
             "Byproducts": [
                 {
-                    "RowName": "Glass_Bottle",
+                    "RowName": "Glass_Bottle_Wine",
                     "DataTableName": "D_ItemTemplate"
                 }
             ]
@@ -266,9 +251,6 @@
         {
             "Name": "Thermos",
             "Modifier": {
-                "Modifier": {
-                    "RowName": "Drink_Cooling"
-                },
                 "ModifierLifetime": 15
             },
             "DescriptionText": "Can be placed in a Suit Water Slot to Auto Consume."
@@ -1181,7 +1163,7 @@
             },
             "Byproducts": [
                 {
-                    "RowName": "Meta_Coal_x100",
+                    "RowName": "Meta_Coal_x25",
                     "DataTableName": "D_ItemTemplate"
                 }
             ]
@@ -2326,9 +2308,6 @@
                 "(Value=\"BaseUnitsConsumed_+\")": 200
             },
             "Modifier": {
-                "Modifier": {
-                    "RowName": "Drink_Heated"
-                },
                 "ModifierLifetime": 30
             }
         },
@@ -2668,9 +2647,6 @@
                 "(Value=\"BaseUnitsConsumed_+\")": 200
             },
             "Modifier": {
-                "Modifier": {
-                    "RowName": "Drink_Cooling"
-                },
                 "ModifierLifetime": 15
             }
         },
@@ -3036,22 +3012,6 @@
             ]
         },
         {
-            "Name": "Jimk_Teleporter",
-            "Modifier": {
-                "ModifierLifetime": 0
-            },
-            "Byproducts": [
-                {
-                    "RowName": "TeleporterHandHeld",
-                    "DataTableName": "D_ItemTemplate"
-                },
-                {
-                    "RowName": "TeleporterBase",
-                    "DataTableName": "D_ItemTemplate"
-                }
-            ]
-        },
-        {
             "Name": "Petes_Mining_Kit",
             "Modifier": {
                 "ModifierLifetime": 0
@@ -3075,6 +3035,1690 @@
                 },
                 {
                     "RowName": "Petes_Beacon_Kit_X",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Jimk_Teleporter",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "TeleporterHandHeld",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "TeleporterBase",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "AC_Loadout_Kit",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Meta_Module_Movement",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Module_Animal_Healthbar",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Arrow_Set_Larkwell_Standard_x10",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Ration_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Carbon_Armor_Arms_Alpha",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Carbon_Armor_Chest_Alpha",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Carbon_Armor_Legs_Alpha",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Carbon_Armor_Helmet_Alpha",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Carbon_Armor_Feet_Alpha",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Mining_Backpack",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Pickaxe_Shengong_Alpha",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Axe_Shengong_Alpha",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Knife_Shengong_Alpha",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Bow_Shengong_Alpha",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Sickle_Larkwell",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Biofuel_Lamp",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Antibiotic_Tonic_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Antipoison_Tonic_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Stringy_Meat_Dried_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Biofuel_Can_Meta",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Oxygen_Tank_Shengong",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Canteen_Shengong",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "AC_Cabin_Kit",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Stone_Floor_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Stone_Wall_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Stone_Wall_Angle_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Stone_Ramp_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Reinforced_Door_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Bed_Bedroll",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Campfire",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Herbalism_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "MXC_Furnace_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Kit_Mortar_And_Pestle",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Concrete_Beam_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Masonry_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Crafting_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Anvil_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "AC_Circular_Construction_Kit",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Stone_Floor_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Stone_Floor_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Stone_Wall_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Stone_Ramp_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Reinforced_Door_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Item_Interior_Wood_Crate_Small_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Item_Wood_Sign_Small_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Wood_Floor_Refined_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Interior_Wood_Beam_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Concrete_Beam_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Concrete_Beam_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Concrete_Beam_X",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "AC_Farming_Kit",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Rhubarb_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Kumara_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Strawberry_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Avocado_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Berry_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Carrot_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "SoyBean_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Lily_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Reed_Flower_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Yeast_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Corn_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Pumpkin_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Mushroom_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Squash_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Watermelon_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Cocoa_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Coffee_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Wheat_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Green_Tea_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Wild_Tea_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Fiber_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "AC_Fishing_Kit",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Refined_Wood_Fishing_Rod",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_Fishing_Trap",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Tackle_Box",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Wood_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Refined_Wood_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Bone_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Iron_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_Iron_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Reed_Flower_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Cured_Leather_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Gold_Ore_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Gorse_Flower_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Dogtags_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Rubber_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Wolf_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Black_Wolf_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Scorpian_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Fiber_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Bark_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Yeast_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Blue_Reed_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Rotten_Meat_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Poison_Sack_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "White_Jelly_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "AC_Pro_Kit",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Raw_Iron_Wood_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Clay_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Obsidian_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Scoria_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Frozen_Ore_X",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Basic_BuildFarmHuntFish_EssentialsPK",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Platinum_Pickaxe",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Platinum_Axe",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Platinum_Spear",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Platinum_Knife",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Platinum_Sickle",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Platinum_Hammer",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Crafting_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Kit_Mortar_And_Pestle",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Anvil_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Carved_Bed",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Carved_Bed",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Concrete_Furnace_V2",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Canteen",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Oxygen_Tank",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Basic_Oxite_Dissolver",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "WaterWheel_Generator",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Water_Pump",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Kit_Generator",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Biofuel_Can_Meta",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Kit_Machining_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "SplineTool_Electricity",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "SplineTool_Water",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Interior_Wood_Cupboard",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Pumpkin_x10",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Advanced_BuildFarmHuntFish_EssentialsPK",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Advanced_Alteration_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Anvil_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Berry_x10",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Kit_Generator",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Canteen",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Crafting_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Drying_Rack",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Electric_Stove",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Electric_Armour_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "SplineTool_Electricity",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Glassworking_Bench_V2",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Kit_Metal_Cupboard",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Kit_Machining_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_Kitchen_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Material_Processor",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Biofuel_Can_Meta",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Basic_Oxite_Dissolver",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Oxygen_Tank",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Salting_Station",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "SplineTool_Water",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Water_Pump",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "WaterWheel_Generator",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Bed_Interior_Wood",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Bed_Interior_Wood",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Cot_Printed",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Mission_Prototype_Printed_Crate",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Basic_KitchenPK",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Kitchen_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Kitchen_Stove",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Cooking_Station",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Herbalism_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Drying_Rack",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "IceBox",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Basic_FoodBinPK",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Advanced_KitchenPK",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Chemistry_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Basic_FoodBinPK",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Wheat_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Yeast_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Coffee_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Cocoa_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Green_Tea_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Wild_Tea_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Lily_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Reed_Flower_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Basic_FoodBinPK",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Yeast_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Wheat_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Berry_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Corn_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Squash_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Pumpkin_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Watermelon_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Bean_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Carrot_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Mushroom_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Rhubarb_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Kumara_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Avocado_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Strawberry_Bulk",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Basic_BuildingPK",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Stone_Frame_x12",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Stone_Floor_x9",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Stone_Beam_x4",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Wood_Floor_Refined_x12",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Stone_Wall_x16",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Stone_Wall_Angle_x6",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Reinforced_Door",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Stone_Ramp_x13",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Wood_Railing_Refined_x10",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Rustic_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Rustic_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Basic_GreenhousePK",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Stone_Frame_x6",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Stone_Floor_x6",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Sulfur_x168",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Refined_Metal_x254",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Steel_Screw_x112",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Refined_Copper_x56",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Epoxy_x228",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Glass_x380",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Advanced_BuildingPK",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Concrete_Frame_x24",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Concrete_Floor_x6",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Concrete_Beam_x5",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Wood_Floor_Refined_x12",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Wood_Floor_Refined_x12",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Concrete_Wall_x24",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Reinforced_Door",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Reinforced_Door",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Concrete_Ramp_x20",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Wood_Railing_Refined_x10",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Concrete_Wall_Angle_x8",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Rustic_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Rustic_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Advanced_GreenhousePK",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Concrete_Frame_x15",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Concrete_Floor_x15",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Glass_x840",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Iron_Ingot_x700",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Steel_Screw_x280",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Composites_x560",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Epoxy_x504",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Electronics_x280",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Basic_FishingPK",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Fishing_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Wooden_Fishing_Rod",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Basic_Fishing_Trap",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_Iron_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Reed_Flower_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Cured_Leather_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Advanced_FishingPK",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Fishing_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Refined_Wood_Fishing_Rod",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_Fishing_Trap",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_Fishing_Trap",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_Iron_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Reed_Flower_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Cured_Leather_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Wolf_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "White_Jelly_Lure",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Basic_HuntingPK",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Advanced_Cloth_Head",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_Cloth_Chest",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_Cloth_Arms",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_Cloth_Legs",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_Cloth_Feet",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Ghillie_Head",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Ghillie_Chest",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Ghillie_Feet",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Ghillie_Arms",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Ghillie_Legs",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Recurve_Bow",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Aluminium_Arrow_x40",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Platinum_Crossbow",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Platinum_Bolt_x40",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Rifle_BoltAction",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Ammo_Rifle_Round_x40",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Ammo_Rifle_Round_Explosive_x20",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Antiparasitic_Paste",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Antipoison_Paste",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Antibiotic_Paste",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Blood_Thinning_Paste",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Advanced_HuntingPK",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Composite_Arms",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Composite_Chest",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Composite_Head",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Composite_Legs",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Composite_Feet",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Compound_Bow",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Composite_Arrow_x50",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Titanium_Crossbow",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Titanium_Bolt_x50",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Rifle_Hunting",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Ammo_Rifle_Round_x50",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Ammo_Rifle_Round_Explosive_x30",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Antiparasitic_Paste",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Antipoison_Paste",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Antibiotic_Paste",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Blood_Thinning_Paste",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Health_Enhancement_Tonic",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Stamina_Enhancement_Tonic",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Sustenence_Enhancement_Tonic",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Strength_Enhancement_Tonic",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "AC_StarterKit1",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Corn_x10",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Steel_Pickaxe",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Steel_Axe",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Steel_Knife",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Steel_Sickle",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Steel_Hammer",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Crafting_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Kit_Mortar_And_Pestle",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Anvil_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Stone_Furnace",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "PotBellyStove",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Cooking_Station",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Herbalism_Bench",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Drying_Rack",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Waterskin",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Oxygen_Bladder",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Leather_Head",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Leather_Chest",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Leather_Feet",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Leather_Arms",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Leather_Legs",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Farming_CropPlot",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Farming_CropPlot",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Longbow",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Flint_Arrow_x20",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Bed_Bedroll",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "AC_StarterKit2",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Basic_BuildFarmHuntFish_EssentialsPK",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Basic_KitchenPK",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Basic_BuildingPK",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Basic_GreenhousePK",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "AC_StarterKit3",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Basic_BuildFarmHuntFish_EssentialsPK",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Basic_FishingPK",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Basic_HuntingPK",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "AC_StarterKit4",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Advanced_BuildFarmHuntFish_EssentialsPK",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_KitchenPK",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_BuildingPK",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_GreenhousePK",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "AC_StarterKit5",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Advanced_BuildFarmHuntFish_EssentialsPK",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_FishingPK",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_HuntingPK",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "AC_StarterKit6",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Advanced_BuildFarmHuntFish_EssentialsPK",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_KitchenPK",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_BuildingPK",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_GreenhousePK",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_FishingPK",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Advanced_HuntingPK",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Kit_Metal_Cupboard",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Bed_Interior_Wood",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Bed_Interior_Wood",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Fabricator",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Water_Pump",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Biofuel_Can_Meta",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Thumper",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Vapour_Condenser",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Solar_Panel",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Solar_Panel",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "AC_Tools_Kit",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Artemis_Armor",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Item_Module_Panther",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Module_Movement",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Module_Animal_Healthbar",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Arrow_Set_Larkwell_Standard_x10",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Ration_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Mining_Backpack",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Pickaxe_Shengong_Alpha",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Axe_Shengong_Alpha",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Knife_Shengong_Alpha",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Bow_Shengong_Alpha",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Sickle_Larkwell",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Biofuel_Lamp",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Antibiotic_Tonic_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Antipoison_Tonic_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Stringy_Meat_Dried_X",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Biofuel_Can_Meta",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Oxygen_Tank_Shengong",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Dropship_Grenade_T4",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "Meta_Canteen_Shengong",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "MXC_Furnace3",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Artemis_Armor",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "T5_Chest",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "T5_Arms",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "T5_Head",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "T5_Feet",
+                    "DataTableName": "D_ItemTemplate"
+                },
+                {
+                    "RowName": "T5_Legs",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Arrow_Theseus_Pack",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Meta_Arrow_Theseus_X50",
+                    "DataTableName": "D_ItemTemplate"
+                }
+            ]
+        },
+        {
+            "Name": "Meta_Bolt_Theseus_Pack",
+            "Modifier": {
+                "ModifierLifetime": 0
+            },
+            "Byproducts": [
+                {
+                    "RowName": "Meta_Bolt_Theseus_X50",
                     "DataTableName": "D_ItemTemplate"
                 }
             ]

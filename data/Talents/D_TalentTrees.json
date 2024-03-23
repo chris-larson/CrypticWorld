@@ -437,6 +437,22 @@
             "Archetype": {
                 "RowName": "Workshop_PetesKits"
             }
+        },
+        {
+            "Name": "Workshop_ACKits",
+            "BackgroundTexture": "/Game/Assets/2DArt/UI/Windows/EmptyAsset.EmptyAsset",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Meta_Pickaxe.ITEM_Meta_Pickaxe",
+            "Archetype": {
+                "RowName": "Workshop_ACKits"
+            }
+        },
+        {
+            "Name": "Workshop_ACStarterKits",
+            "BackgroundTexture": "/Game/Assets/2DArt/UI/Windows/EmptyAsset.EmptyAsset",
+            "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Meta_Pickaxe.ITEM_Meta_Pickaxe",
+            "Archetype": {
+                "RowName": "Workshop_ACStarterKits"
+            }
         }
     ]
 }

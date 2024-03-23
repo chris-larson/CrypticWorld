@@ -5756,8 +5756,6 @@
         {
             "Name": "Water_Purifier_T1_Water",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/WaterPurifier/BP_Water_Purifier_T1_Water.BP_Water_Purifier_T1_Water_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Water_Purifier_T1_1.T_ITEM_Water_Purifier_T1_1",
-            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Water_Purifier_T1_Water-DeployableName\", \"Water Purifier\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_WaterPurifier_T1/SM_DEP_WaterPurifier_T1B.SM_DEP_WaterPurifier_T1B",
             "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_WATER_ITEM_SMALL.SFX_DEPLOY_WATER_ITEM_SMALL",
             "WorldPlacementType": "WaterPlacement",
@@ -5768,10 +5766,8 @@
         {
             "Name": "Water_Purifier_T1_Ground",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/WaterPurifier/BP_Water_Purifier_T1_Ground.BP_Water_Purifier_T1_Ground_C",
-            "DeployableIcon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Deployables/T_ITEM_Water_Purifier_T1_2.T_ITEM_Water_Purifier_T1_2",
-            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Water_Purifier_T1_Ground-DeployableName\", \"Rain Collector\")",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_WaterPurifier_T1/SM_DEP_WaterPurifier_T1.SM_DEP_WaterPurifier_T1",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_ITEM.SFX_DEPLOY_ITEM",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_THATCH.SFX_BLD_THATCH",
             "DeployCollisionLocationOffset": {
                 "Z": 25
             }
@@ -5780,15 +5776,13 @@
             "Name": "Water_Purifier_T2",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/WaterPurifier/BP_Water_Purifier_T2.BP_Water_Purifier_T2_C",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_WaterPurifier_T2/SM_DEP_WaterPurifier_T2.SM_DEP_WaterPurifier_T2",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_WATER_ITEM.SFX_DEPLOY_WATER_ITEM",
-            "WorldPlacementType": "WaterPlacement"
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD"
         },
         {
             "Name": "Water_Purifier_T4",
-            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/WaterPurifier/BP_Water_Purifier_T4_Temp.BP_Water_Purifier_T4_Temp_C",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/WaterPurifier/BP_Water_Purifier_T4.BP_Water_Purifier_T4_C",
             "PreviewStaticMesh": "/Game/ASS/DEP/DEP_WaterPurifier_T4/SM_DEP_WaterPurifier_T4.SM_DEP_WaterPurifier_T4",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_WATER_ITEM.SFX_DEPLOY_WATER_ITEM",
-            "WorldPlacementType": "WaterPlacement"
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_DEPLOY_METAL_ITEM.SFX_DEPLOY_METAL_ITEM"
         },
         {
             "Name": "Lava_Hunter_Trophy",
@@ -5976,7 +5970,8 @@
             "Name": "Brutalist_Lamp",
             "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Decorations/BP_Brutalist_Lamp.BP_Brutalist_Lamp_C",
             "PreviewStaticMesh": "/Game/ASS/DCO/Brutalist/DeskLamp_Brutalist/SM_DCO_DeskLamp_Brutalist.SM_DCO_DeskLamp_Brutalist",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_BRUTALIST.SFX_DEPLOY_BRUTALIST"
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_BRUTALIST.SFX_DEPLOY_BRUTALIST",
+            "MaxRestackingAmount": 1
         },
         {
             "Name": "Brutalist_CoffeeTable",
@@ -6627,7 +6622,7 @@
             "DeployedSound": "/Game/FMOD/Events/SFX/Deployable/Geyser_Analyzer/SFX_DEPLOY_GEYSER_ANALYZER.SFX_DEPLOY_GEYSER_ANALYZER",
             "MaxSurfaceSnapAngle": 360,
             "SupportsCustomRotation": false,
-            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapBehaviour": "WorldAndSnap",
             "SnapActorTags": [
                 "Enzyme_Geyser"
             ],
@@ -6635,7 +6630,8 @@
                 "Enzyme_Geyser_Attachment"
             ],
             "IgnoreCollisionWhenSnapped": true,
-            "UseSnapSocketRotation": true
+            "UseSnapSocketRotation": true,
+            "SnapToSurfaceNormal": false
         },
         {
             "Name": "Enzyme_Cannon_Hub",
@@ -6824,6 +6820,148 @@
             "WorldPlacementType": "WallPlacement",
             "bCanAffectNavigation": false,
             "MaxRestackingAmount": 1
+        },
+        {
+            "Name": "Animal_Bed_Burlap",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Animal_Bed_Burlap.BP_Animal_Bed_Burlap_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Animal_Bed_Burlap.SM_DEP_Animal_Bed_Burlap",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "bCanAffectNavigation": false,
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Animal_Bed_Heated",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Animal_Bed_Heated.BP_Animal_Bed_Heated_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Animal_Bed_Heated.SM_DEP_Animal_Bed_Heated",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "bCanAffectNavigation": false,
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Animal_Bed_Royal",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Animal_Bed_Royal.BP_Animal_Bed_Royal_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Animal_Bed_Royal.SM_DEP_Animal_Bed_Royal",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Animal_Bed_WolfSkin",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Animal_Bed_Wolf.BP_Animal_Bed_Wolf_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Animal_Bed_Wolf.SM_DEP_Animal_Bed_Wolf",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "bCanAffectNavigation": false,
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Animal_Bed_LeopardSkin",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Animal_Bed_SnowLeopard.BP_Animal_Bed_SnowLeopard_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Animal_Bed_SnowLeopard.SM_DEP_Animal_Bed_SnowLeopard",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "bCanAffectNavigation": false,
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Chicken_Coop",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Chicken_Coop_Rustic.BP_Chicken_Coop_Rustic_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Chicken_Coop_Rustic.SM_DEP_Chicken_Coop_Rustic",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "bCanAffectNavigation": false,
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Chicken_Coop_Red",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Chicken_Coop_Royal.BP_Chicken_Coop_Royal_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Chicken_Coop_Royal.SM_DEP_Chicken_Coop_Royal",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "bCanAffectNavigation": false,
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Animal_Bed_Emperor",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Animal_Bed_Emperor.BP_Animal_Bed_Emperor_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Animal_Bed_Royal.SM_DEP_Animal_Bed_Royal",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Animal_Bed_Striker",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Animal_Bed_Striker.BP_Animal_Bed_Striker_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Animal_Bed_Fur_Var01.SM_DEP_Animal_Bed_Fur_Var01",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "bCanAffectNavigation": false,
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Animal_Bed_Leopard",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Animal_Bed_Leopard.BP_Animal_Bed_Leopard_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Animal_Bed_Fur_Var01.SM_DEP_Animal_Bed_Fur_Var01",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "bCanAffectNavigation": false,
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Animal_Bed_Tusker",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Animal_Bed_Tusker.BP_Animal_Bed_Tusker_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Animal_Bed_Fur_Var01.SM_DEP_Animal_Bed_Fur_Var01",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "bCanAffectNavigation": false,
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Animal_Bed_Zebra",
+            "DeployableBlueprint": "/Game/BP/Objects/World/Items/Deployables/Furniture/BP_Animal_Bed_Zebra.BP_Animal_Bed_Zebra_C",
+            "PreviewStaticMesh": "/Game/ASS/DEP/SM_DEP_Animal_Bed_Fur_Var01.SM_DEP_Animal_Bed_Fur_Var01",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "bCanAffectNavigation": false,
+            "DeployCollisionExtentOffset": {
+                "X": -60,
+                "Y": -60
+            }
+        },
+        {
+            "Name": "Hitching_Post",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Hitching_Post-DeployableName\", \"None\")",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false
+        },
+        {
+            "Name": "Snare_Trap",
+            "DeployableName": "NSLOCTEXT(\"D_DeployableSetup\", \"Snare_Trap-DeployableName\", \"None\")",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SupportsCustomRotation": false
         },
         {
             "Name": "Custom_Pole_Light",
@@ -7045,20 +7183,6 @@
             "WorldPlacementType": "WallPlacement",
             "bCanAffectNavigation": false,
             "MaxRestackingAmount": 2
-        },
-        {
-            "Name": "TeleporterBase",
-            "DeployableBlueprint": "/Game/BP/Teleporter/BP_TeleporterBase.BP_TeleporterBase_C",
-            "PreviewStaticMesh": "/Game/BP/Teleporter/SM_Teleporter_Base.SM_Teleporter_Base",
-            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
-            "SnapToSurfaceNormal": false,
-            "SupportsCustomRotation": false,
-            "SnapBehaviour": "SnapPlacementOnly",
-            "SnapActorTags": [
-                "Building_Floor"
-            ],
-            "IgnoreCollisionWhenSnapped": true,
-            "UseSnapSocketRotation": true
         },
         {
             "Name": "Jimk_Steel_Cap",
@@ -7661,6 +7785,139 @@
             "IgnoreCollisionWhenSnapped": true,
             "UseSnapSocketRotation": true,
             "MaxRestackingAmount": 10
+        },
+        {
+            "Name": "Jimk_Xtra_Large_Aquarium",
+            "DeployableBlueprint": "/Game/BP/Xtra_Large_aquarium/BP_Jimk_X_Large_Advanced_Aquarium.BP_Jimk_X_Large_Advanced_Aquarium_C",
+            "PreviewStaticMesh": "/Game/BP/Xtra_Large_aquarium/SM_Jimk_Aquarium_T4_LRG.SM_Jimk_Aquarium_T4_LRG",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_HEAVY_WOOD.SFX_DEPLOY_HEAVY_WOOD",
+            "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "Jimk_Water_Extractor_Electric",
+            "DeployableBlueprint": "/Game/BP/Water_Extractor/BP_Water_Extractor.BP_Water_Extractor_C",
+            "PreviewStaticMesh": "/Game/BP/Water_Extractor/SM_Jimk_Water_Extractor.SM_Jimk_Water_Extractor",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SupportsCustomRotation": false,
+            "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "Jimk_Vapor_Collector",
+            "DeployableBlueprint": "/Game/BP/BP_VaporCollector.BP_VaporCollector_C",
+            "PreviewStaticMesh": "/Game/BP/Vapor_Collector/SM_Vapor_Collector.SM_Vapor_Collector",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEPLOY_WATER_ITEM.SFX_DEPLOY_WATER_ITEM",
+            "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "Jimk_Large_WindTurbine",
+            "DeployableBlueprint": "/Game/BP/Large_WindTurbine/BP_Large_WindTurbine.BP_Large_WindTurbine_C",
+            "PreviewStaticMesh": "/Game/BP/Large_WindTurbine/SM_Large_WindTurbine_Metal.SM_Large_WindTurbine_Metal",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false
+        },
+        {
+            "Name": "TeleporterBase",
+            "DeployableBlueprint": "/Game/BP/Teleporter/BP_TeleporterBase.BP_TeleporterBase_C",
+            "PreviewStaticMesh": "/Game/BP/Teleporter/SM_Teleporter_Base.SM_Teleporter_Base",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Deployables/SFX_DEP_GENERIC.SFX_DEP_GENERIC",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Building_Floor"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Elevator_A",
+            "DeployableBlueprint": "/Game/BP/Custom/BP_Elevator1stFloor.BP_Elevator1stFloor_C",
+            "DeployableIcon": "/Game/BP/Custom/ITEM_Elevator_Floor_1.ITEM_Elevator_Floor_1",
+            "PreviewStaticMesh": "/Game/BP/Custom/SM_ElevatorDeploy.SM_ElevatorDeploy",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Building_Floor"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Elevator_B",
+            "DeployableBlueprint": "/Game/BP/Custom/BP_Elevator2ndFloor.BP_Elevator2ndFloor_C",
+            "DeployableIcon": "/Game/BP/Custom/ITEM_Elevator_Floor_2.ITEM_Elevator_Floor_2",
+            "PreviewStaticMesh": "/Game/BP/Custom/SM_ElevatorDeploy.SM_ElevatorDeploy",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Building_Floor"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Elevator_C",
+            "DeployableBlueprint": "/Game/BP/Custom/BP_Elevator3rdFloor.BP_Elevator3rdFloor_C",
+            "DeployableIcon": "/Game/BP/Custom/ITEM_Elevator_Floor_3.ITEM_Elevator_Floor_3",
+            "PreviewStaticMesh": "/Game/BP/Custom/SM_ElevatorDeploy.SM_ElevatorDeploy",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Building_Floor"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Elevator_D",
+            "DeployableBlueprint": "/Game/BP/Custom/BP_Elevator4thFloor.BP_Elevator4thFloor_C",
+            "DeployableIcon": "/Game/BP/Custom/ITEM_Elevator_Floor_4.ITEM_Elevator_Floor_4",
+            "PreviewStaticMesh": "/Game/BP/Custom/SM_ElevatorDeploy.SM_ElevatorDeploy",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Building_Floor"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Elevator_E",
+            "DeployableBlueprint": "/Game/BP/Custom/BP_Elevator8thFloor.BP_Elevator8thFloor_C",
+            "DeployableIcon": "/Game/BP/Custom/ITEM_Elevator_Floor_8.ITEM_Elevator_Floor_8",
+            "PreviewStaticMesh": "/Game/BP/Custom/SM_ElevatorDeploy.SM_ElevatorDeploy",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Building_Floor"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
+        },
+        {
+            "Name": "Elevator_F",
+            "DeployableBlueprint": "/Game/BP/Custom/BP_Elevator16thFloor.BP_Elevator16thFloor_C",
+            "DeployableIcon": "/Game/BP/Custom/ITEM_Elevator_Floor_16.ITEM_Elevator_Floor_16",
+            "PreviewStaticMesh": "/Game/BP/Custom/SM_ElevatorDeploy.SM_ElevatorDeploy",
+            "DeployedSound": "/Game/FMOD/Events/SFX/D_Buildables/SFX_BLD_METAL.SFX_BLD_METAL",
+            "SnapToSurfaceNormal": false,
+            "SupportsCustomRotation": false,
+            "SnapBehaviour": "SnapPlacementOnly",
+            "SnapActorTags": [
+                "Building_Floor"
+            ],
+            "IgnoreCollisionWhenSnapped": true,
+            "UseSnapSocketRotation": true
         }
     ]
 }

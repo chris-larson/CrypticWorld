@@ -290,6 +290,22 @@
             },
             "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"Workshop_PetesKits-DisplayName\", \"Pete's Kits\")",
             "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_Consume.Icon_Consume"
+        },
+        {
+            "Name": "Workshop_ACKits",
+            "Model": {
+                "RowName": "Workshop"
+            },
+            "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"Workshop_ACKits-DisplayName\", \"Alter3dCarbon's Kits\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_Consume.Icon_Consume"
+        },
+        {
+            "Name": "Workshop_ACStarterKits",
+            "Model": {
+                "RowName": "Workshop"
+            },
+            "DisplayName": "NSLOCTEXT(\"D_TalentArchetypes\", \"Workshop_ACStarterKits-DisplayName\", \"Alter3dCarbon's Starter Kits\")",
+            "Icon": "/Game/Assets/2DArt/UI/Icons/Icon_Consume.Icon_Consume"
         }
     ]
 }

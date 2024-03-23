@@ -833,7 +833,7 @@
             "ItemsForRepair": [
                 {
                     "Item": {
-                        "RowName": "Wood",
+                        "RowName": "Refined_Metal",
                         "DataTableName": "D_ItemsStatic"
                     },
                     "Amount": 1
@@ -1669,8 +1669,47 @@
             ]
         },
         {
+            "Name": "Iron_Shears",
+            "Max_Durability": 40000,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Refined_Metal",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ]
+        },
+        {
+            "Name": "CHAC_Firearms",
+            "Max_Durability": 25000,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "Meta_Repair_Item",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 1
+                }
+            ]
+        },
+        {
             "Name": "Jimk_Titanium_Items",
             "Max_Durability": 50000
+        },
+        {
+            "Name": "Armor_T5",
+            "Max_Durability": 50000,
+            "ItemsForRepair": [
+                {
+                    "Item": {
+                        "RowName": "MetaResource",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "Amount": 2
+                }
+            ]
         }
     ]
 }

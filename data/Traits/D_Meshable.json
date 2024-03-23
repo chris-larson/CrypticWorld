@@ -6380,6 +6380,48 @@
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {
+            "Name": "Mesh_Meta_Sickle_Shenong_01",
+            "ItemMesh": "/Game/ASS/ITM/Sickles/SK_ITM_Sickle_SHEN.SK_ITM_Sickle_SHEN",
+            "EquipHandMesh": "/Game/ASS/ITM/Sickles/SK_ITM_Sickle_SHEN.SK_ITM_Sickle_SHEN"
+        },
+        {
+            "Name": "Mesh_Meta_Sickle_Shenong_02",
+            "ItemMesh": "/Game/ASS/ITM/Sickles/SK_ITM_Sickle_SHEN_02.SK_ITM_Sickle_SHEN_02",
+            "EquipHandMesh": "/Game/ASS/ITM/Sickles/SK_ITM_Sickle_SHEN_02.SK_ITM_Sickle_SHEN_02"
+        },
+        {
+            "Name": "Mesh_Iron_Shears",
+            "ItemMesh": "/Game/ASS/ITM/Sheep_Sheers/SK_ITM_Sheep_Sheers.SK_ITM_Sheep_Sheers",
+            "EquipHandMesh": "/Game/ASS/ITM/Sheep_Sheers/SK_ITM_Sheep_Sheers.SK_ITM_Sheep_Sheers"
+        },
+        {
+            "Name": "Mesh_Carcass_Ghost_Crocodile",
+            "ItemMesh": "/Game/ASS/CRE/Ghost_Crocodile/SK_CRE_GhostCroc.SK_CRE_GhostCroc",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Ghost_Crocodile_Corpse.BP_Ghost_Crocodile_Corpse_C",
+            "EquipHandMesh": "/Game/ASS/CRE/Ghost_Crocodile/SK_CRE_GhostCroc.SK_CRE_GhostCroc",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Ghost_Crocodile_Corpse.BP_Ghost_Crocodile_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Carcass_Ape",
+            "ItemMesh": "/Game/ASS/CRE/Ape/SK_CRE_Ape.SK_CRE_Ape",
+            "ItemActor": "/Game/BP/Objects/World/Items/Deployables/AI/BP_Ape_Corpse.BP_Ape_Corpse_C"
+        },
+        {
+            "Name": "Mesh_Hitching_Rope"
+        },
+        {
+            "Name": "Mesh_Pistol_CHAC",
+            "ItemMesh": "/Game/ASS/WEP/SK_GUN_Pistol_CHAC/SK_GUN_Pistol_CHAC.SK_GUN_Pistol_CHAC",
+            "EquipHandMesh": "/Game/ASS/WEP/SK_GUN_Pistol_CHAC/SK_GUN_Pistol_CHAC.SK_GUN_Pistol_CHAC",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_SGL_Pistol.BP_SkeletalItem_SGL_Pistol_C"
+        },
+        {
+            "Name": "Mesh_Rifle_CHAC",
+            "ItemMesh": "/Game/ASS/WEP/SK_GUN_HuntingRifle_CHAC/SK_GUN_HuntingRifle_CHAC.SK_GUN_HuntingRifle_CHAC",
+            "EquipHandMesh": "/Game/ASS/WEP/SK_GUN_HuntingRifle_CHAC/SK_GUN_HuntingRifle_CHAC.SK_GUN_HuntingRifle_CHAC",
+            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_HuntingRifle.BP_SkeletalItem_HuntingRifle_C"
+        },
+        {
             "Name": "Mesh_Custom_Pole_Light",
             "ItemMesh": "/Game/ASS/DEP/SM_DEP_Light_Pole.SM_DEP_Light_Pole",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
@@ -6420,22 +6462,6 @@
             "ItemMesh": "/Game/ASS/DEP/Light_Switch/SM_AVP1_Switch_Off.SM_AVP1_Switch_Off",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "DeployableActor": "/Game/ASS/DEP/Light_Switch/BP_DEP_Jimk_Light_Switch.BP_DEP_Jimk_Light_Switch_C"
-        },
-        {
-            "Name": "Mesh_TeleporterHandHeld",
-            "ItemMesh": "/Game/BP/Teleporter/SK_ITM_Teleporter.SK_ITM_Teleporter",
-            "EquipHandMesh": "/Game/BP/Teleporter/SK_ITM_Teleporter.SK_ITM_Teleporter"
-        },
-        {
-            "Name": "Mesh_TeleporterBase",
-            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
-            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
-            "DeployableActor": "/Game/BP/Teleporter/BP_TeleporterBase.BP_TeleporterBase_C "
-        },
-        {
-            "Name": "Mesh_Jimk_Teleporter",
-            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
-            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
         },
         {
             "Name": "Mesh_Jimk_Scoped_Compound_Bow",
@@ -6568,6 +6594,46 @@
             "ItemMesh": "/Game/ASS/KIT/SM_KIT_Machining.SM_KIT_Machining",
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
             "DeployableActor": "/Game/BP/Building/Steel/BP_Metal_Ladder_Jimk_Steel.BP_Metal_Ladder_Jimk_Steel_C"
+        },
+        {
+            "Name": "Mesh_Jimk_Xtra_Large_Aquarium",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Machining.SM_KIT_Machining",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Xtra_Large_aquarium/BP_Jimk_X_Large_Advanced_Aquarium.BP_Jimk_X_Large_Advanced_Aquarium_C"
+        },
+        {
+            "Name": "Mesh_Jimk_Vapor_Collector",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Machining.SM_KIT_Machining",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/BP_VaporCollector.BP_VaporCollector_C"
+        },
+        {
+            "Name": "Mesh_Jimk_Large_WindTurbine",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Fabricator.SM_KIT_Fabricator",
+            "EquipHandMesh": "/Game/Assets/2DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Large_WindTurbine/BP_Large_WindTurbine.BP_Large_WindTurbine_C"
+        },
+        {
+            "Name": "Mesh_TeleporterHandHeld",
+            "ItemMesh": "/Game/BP/Teleporter/SK_ITM_Teleporter.SK_ITM_Teleporter",
+            "EquipHandMesh": "/Game/BP/Teleporter/SK_ITM_Teleporter.SK_ITM_Teleporter"
+        },
+        {
+            "Name": "Mesh_TeleporterBase",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Teleporter/BP_TeleporterBase.BP_TeleporterBase_C "
+        },
+        {
+            "Name": "Mesh_Jimk_Teleporter",
+            "ItemMesh": "/Game/ASS/KIT/SM_KIT_Crafting.SM_KIT_Crafting",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube"
+        },
+        {
+            "Name": "Mesh_Elevator",
+            "ItemMesh": "/Game/BP/Custom/SM_ElevatorDeploy.SM_ElevatorDeploy",
+            "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
+            "DeployableActor": "/Game/BP/Custom/BP_Elevator1stFloor.BP_Elevator1stFloor_C"
         },
         {
             "Name": "Mesh_Reinforced_Int_Floor",

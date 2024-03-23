@@ -1948,48 +1948,6 @@
             }
         },
         {
-            "Name": "TeleporterHandHeld",
-            "ActionMapping": {
-                "(RowName=\"TeleporterHandHeld_Main\",DataTableName=\"D_Actions\")": {
-                    "InputTypes": {
-                        "Primary": {
-                            "RowName": "None",
-                            "DataTableName": "D_StaminaActionCosts"
-                        }
-                    },
-                    "ModifierState": {
-                        "RowName": "None",
-                        "DataTableName": "D_ModifierStates"
-                    }
-                },
-                "(RowName=\"TeleporterHandHeld_Secondary\",DataTableName=\"D_Actions\")": {
-                    "InputTypes": {
-                        "Secondary": {
-                            "RowName": "None",
-                            "DataTableName": "D_StaminaActionCosts"
-                        }
-                    },
-                    "ModifierState": {
-                        "RowName": "None",
-                        "DataTableName": "D_ModifierStates"
-                    }
-                },
-                "(RowName=\"TeleporterHandHeld_Reload\",DataTableName=\"D_Actions\")": {
-                    "InputTypes": {
-                        "Reload": {
-                            "RowName": "None",
-                            "DataTableName": "D_StaminaActionCosts"
-                        }
-                    },
-                    "ModifierState": {
-                        "RowName": "None",
-                        "DataTableName": "D_ModifierStates"
-                    }
-                }
-            },
-            "bUseClientPrediction": true
-        },
-        {
             "Name": "Compound_Bow_JK",
             "ActionMapping": {
                 "(RowName=\"Bow_Shoot\",DataTableName=\"D_Actions\")": {
@@ -2101,6 +2059,48 @@
                     }
                 },
                 "(RowName=\"Weapon_RoundFeed\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Reload": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                }
+            },
+            "bUseClientPrediction": true
+        },
+        {
+            "Name": "TeleporterHandHeld",
+            "ActionMapping": {
+                "(RowName=\"TeleporterHandHeld_Main\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Primary": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                },
+                "(RowName=\"TeleporterHandHeld_Secondary\",DataTableName=\"D_Actions\")": {
+                    "InputTypes": {
+                        "Secondary": {
+                            "RowName": "None",
+                            "DataTableName": "D_StaminaActionCosts"
+                        }
+                    },
+                    "ModifierState": {
+                        "RowName": "None",
+                        "DataTableName": "D_ModifierStates"
+                    }
+                },
+                "(RowName=\"TeleporterHandHeld_Reload\",DataTableName=\"D_Actions\")": {
                     "InputTypes": {
                         "Reload": {
                             "RowName": "None",

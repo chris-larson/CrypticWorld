@@ -7,6 +7,7 @@
         "ResourceFlowRate": 1000,
         "bAllowPullingResourceFromInventory": false,
         "bAllowPushingResourceToInventory": false,
+        "bStorageIsInFlowOnly": false,
         "BrownOutModifier": {
             "RowName": "None",
             "DataTableName": "D_ModifierStates"
@@ -203,7 +204,7 @@
         },
         {
             "Name": "Water_Pump_Energy",
-            "ResourceFlowRate": 500
+            "ResourceFlowRate": 1000
         },
         {
             "Name": "Exotic_Electric_Drill",
@@ -355,6 +356,32 @@
         {
             "Name": "Enzyme_Cannon",
             "ResourceFlowRate": 5000
+        },
+        {
+            "Name": "Water_Trough_T4",
+            "AutoShutoffFlowPercent": 99,
+            "bAllowAutoRestart": true
+        },
+        {
+            "Name": "Purifier_T4",
+            "AutoActivate": true
+        },
+        {
+            "Name": "Jimk_Large_WindTurbine",
+            "FlowType": "Produce",
+            "ResourceFlowRate": 7000
+        },
+        {
+            "Name": "WaterWheel_Generator_Turbo",
+            "Provider": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 8000
+        },
+        {
+            "Name": "Water_Pump_Energy_Turbo",
+            "Receiver": true,
+            "AutoActivate": true,
+            "ResourceFlowRate": 2000
         }
     ]
 }

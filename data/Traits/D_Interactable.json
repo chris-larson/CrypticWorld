@@ -326,6 +326,15 @@
         },
         {
             "Name": "WaterSource",
+            "WorldPressInteracts": [
+                {
+                    "InteractionRow": {
+                        "RowName": "Interact_WaterSource_Refill",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                }
+            ],
             "WorldHoldInteracts": [
                 {
                     "InteractionRow": {
@@ -1870,6 +1879,13 @@
                         "DataTableName": "D_Interactions"
                     },
                     "Tag": ""
+                },
+                {
+                    "InteractionRow": {
+                        "RowName": "Pickup_Item",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
                 }
             ],
             "WorldHoldInteracts": [
@@ -2000,6 +2016,13 @@
                 {
                     "InteractionRow": {
                         "RowName": "Pickup_Item",
+                        "DataTableName": "D_Interactions"
+                    },
+                    "Tag": ""
+                },
+                {
+                    "InteractionRow": {
+                        "RowName": "Inspect_Deployable",
                         "DataTableName": "D_Interactions"
                     },
                     "Tag": ""

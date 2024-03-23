@@ -4577,26 +4577,36 @@
             "EffectedByWeather": false
         },
         {
-            "Name": "Water_Purifier_T1",
+            "Name": "Water_Purifier_T1_Water",
             "Variants": [
                 {
                     "RowName": "Water_Purifier_T1_Water",
                     "DataTableName": "D_DeployableSetup"
-                },
+                }
+            ],
+            "EffectedByWeather": false,
+            "bMustBeOutside": true
+        },
+        {
+            "Name": "Water_Purifier_T1_Ground",
+            "Variants": [
                 {
                     "RowName": "Water_Purifier_T1_Ground",
                     "DataTableName": "D_DeployableSetup"
                 }
-            ]
+            ],
+            "EffectedByWeather": false,
+            "bMustBeOutside": true
         },
         {
-            "Name": "Water_Purifier_T2",
+            "Name": "Water_Purifier_T3",
             "Variants": [
                 {
                     "RowName": "Water_Purifier_T2",
                     "DataTableName": "D_DeployableSetup"
                 }
-            ]
+            ],
+            "EffectedByWeather": false
         },
         {
             "Name": "Water_Purifier_T4",
@@ -5612,6 +5622,144 @@
             "EffectedByWeather": false
         },
         {
+            "Name": "Animal_Bed_Burlap",
+            "Variants": [
+                {
+                    "RowName": "Animal_Bed_Burlap",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Animal_Bed_Heated",
+            "Variants": [
+                {
+                    "RowName": "Animal_Bed_Heated",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Animal_Bed_Royal",
+            "Variants": [
+                {
+                    "RowName": "Animal_Bed_Royal",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Animal_Bed_WolfSkin",
+            "Variants": [
+                {
+                    "RowName": "Animal_Bed_WolfSkin",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Animal_Bed_LeopardSkin",
+            "Variants": [
+                {
+                    "RowName": "Animal_Bed_LeopardSkin",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Chicken_Coop",
+            "Variants": [
+                {
+                    "RowName": "Chicken_Coop",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Chicken_Coop_Red",
+            "Variants": [
+                {
+                    "RowName": "Chicken_Coop_Red",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Animal_Bed_Emperor",
+            "Variants": [
+                {
+                    "RowName": "Animal_Bed_Emperor",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Animal_Bed_Striker",
+            "Variants": [
+                {
+                    "RowName": "Animal_Bed_Striker",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Animal_Bed_Leopard",
+            "Variants": [
+                {
+                    "RowName": "Animal_Bed_Leopard",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Animal_Bed_Tusker",
+            "Variants": [
+                {
+                    "RowName": "Animal_Bed_Tusker",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Animal_Bed_Zebra",
+            "Variants": [
+                {
+                    "RowName": "Animal_Bed_Zebra",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Hitching_Post",
+            "Variants": [
+                {
+                    "RowName": "Hitching_Post",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ]
+        },
+        {
+            "Name": "Snare_Trap",
+            "Variants": [
+                {
+                    "RowName": "Snare_Trap",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ]
+        },
+        {
             "Name": "Custom_Pole_Light",
             "Variants": [
                 {
@@ -5720,16 +5868,6 @@
                 },
                 {
                     "RowName": "Jimk_AutoSwitch",
-                    "DataTableName": "D_DeployableSetup"
-                }
-            ],
-            "EffectedByWeather": false
-        },
-        {
-            "Name": "TeleporterBase",
-            "Variants": [
-                {
-                    "RowName": "TeleporterBase",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],
@@ -5946,6 +6084,85 @@
                 },
                 {
                     "RowName": "Jimk_Steel_Ladder_Top",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Jimk_Xtra_Large_Aquarium",
+            "Variants": [
+                {
+                    "RowName": "Jimk_Xtra_Large_Aquarium",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ]
+        },
+        {
+            "Name": "Jimk_Water_Extractor_Electric",
+            "Variants": [
+                {
+                    "RowName": "Jimk_Water_Extractor_Electric",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Jimk_Vapor_Collector",
+            "Variants": [
+                {
+                    "RowName": "Jimk_Vapor_Collector",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Jimk_Large_WindTurbine",
+            "Variants": [
+                {
+                    "RowName": "Jimk_Large_WindTurbine",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "TeleporterBase",
+            "Variants": [
+                {
+                    "RowName": "TeleporterBase",
+                    "DataTableName": "D_DeployableSetup"
+                }
+            ],
+            "EffectedByWeather": false
+        },
+        {
+            "Name": "Elevator",
+            "Variants": [
+                {
+                    "RowName": "Elevator_A",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Elevator_B",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Elevator_C",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Elevator_D",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Elevator_E",
+                    "DataTableName": "D_DeployableSetup"
+                },
+                {
+                    "RowName": "Elevator_F",
                     "DataTableName": "D_DeployableSetup"
                 }
             ],

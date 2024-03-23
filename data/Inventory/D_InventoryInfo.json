@@ -49,7 +49,7 @@
             "SlotTemplate": {
                 "RowName": "General_Inventory_Slot"
             },
-            "StartingSlots": 24
+            "StartingSlots": 42
         },
         {
             "Name": "Suit",
@@ -236,7 +236,7 @@
             "SlotTemplate": {
                 "RowName": "General_Inventory_Slot"
             },
-            "StartingSlots": 6
+            "StartingSlots": 30
         },
         {
             "Name": "Space_Hands",
@@ -343,7 +343,7 @@
             "SlotTemplate": {
                 "RowName": "Any_Food_Or_Ice"
             },
-            "StartingSlots": 30
+            "StartingSlots": 48
         },
         {
             "Name": "Animal_Corpse",
@@ -378,35 +378,35 @@
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 12
+            "StartingSlots": 72
         },
         {
             "Name": "Storage_Wood_Crate_Medium",
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 24
+            "StartingSlots": 72
         },
         {
             "Name": "Storage_Metal_Crate_Small",
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 18
+            "StartingSlots": 72
         },
         {
             "Name": "Storage_Metal_Crate_Medium",
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 24
+            "StartingSlots": 72
         },
         {
             "Name": "Storage_Wood_Cupboard",
             "InventoryID": {
                 "Value": "General"
             },
-            "StartingSlots": 42
+            "StartingSlots": 72
         },
         {
             "Name": "Storage_Metal_Cupboard",
@@ -468,7 +468,7 @@
             "SlotTemplate": {
                 "RowName": "General_Inventory_Slot"
             },
-            "StartingSlots": 18
+            "StartingSlots": 30
         },
         {
             "Name": "Dehumidifier",
@@ -751,7 +751,7 @@
             "SlotTemplate": {
                 "RowName": "General_Inventory_Slot"
             },
-            "StartingSlots": 12
+            "StartingSlots": 36
         },
         {
             "Name": "Storage_Mission_Analyzer",
@@ -1089,16 +1089,16 @@
                 "Value": "General"
             },
             "SlotTemplate": {
-                "RowName": "Any_Bow_Attachment"
+                "RowName": "Any_Ammo"
             },
             "StartingSlots": 2,
             "SlotOverrides": [
                 {
                     "Query": {
-                        "RowName": "Any_Ammo",
+                        "RowName": "Any_Bow_Attachment",
                         "DataTableName": "D_TagQueries"
                     },
-                    "Location": 0
+                    "Location": 1
                 }
             ]
         },
@@ -1201,7 +1201,10 @@
                 "Value": "General"
             },
             "StartingSlots": 30,
-            "RemoveOnly": true
+            "RemoveOnly": true,
+            "SlotTemplate": {
+                "RowName": "Any_Water"
+            }
         },
         {
             "Name": "Repair_Bench",
@@ -1266,9 +1269,9 @@
                 "Value": "General"
             },
             "SlotTemplate": {
-                "RowName": "Any_Food_Or_Ice"
+                "RowName": "Any_Food"
             },
-            "StartingSlots": 60
+            "StartingSlots": 100
         },
         {
             "Name": "Fishing_Trap",
@@ -1358,7 +1361,7 @@
             "SlotTemplate": {
                 "RowName": "Any_Ammo"
             },
-            "StartingSlots": 4
+            "StartingSlots": 1
         },
         {
             "Name": "Tackle_Box",

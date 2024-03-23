@@ -257,6 +257,30 @@
                 "(Value=\"BaseAttacksCauseMinorHemorrhage_%\")": 20,
                 "(Value=\"BaseBleedResistance_%\")": 50
             }
+        },
+        {
+            "Name": "T5_5",
+            "RequiredGear": 5,
+            "Description": "NSLOCTEXT(\"D_ArmourSetBonus\", \"T5_5-Description\", \"T5 Armor Set\")",
+            "StatsGranted": {
+                "(Value=\"BaseAnimalThreatModifier_+%\")": -50,
+                "(Value=\"BaseCrouchSpeed_+%\")": 15,
+                "(Value=\"BaseWeightCapacity_+%\")": 30,
+                "(Value=\"BaseCollisionDamageResistance_+%\")": 40,
+                "(Value=\"BaseMovementSpeed_+%\")": 20,
+                "(Value=\"BaseHealthRegen_+%\")": 35,
+                "(Value=\"BaseStaminaRegen_+%\")": 35,
+                "(Value=\"BaseArcticAnimalThreatModifier_+%\")": -20,
+                "(Value=\"BaseArcticExposureResistance_+%\")": 15,
+                "(Value=\"BasePoisonDamageResistance_+%\")": 25,
+                "(Value=\"BasePoisonModifierDuration_+%\")": -50,
+                "(Value=\"BaseDesertWaterConsumption_+%\")": -75,
+                "(Value=\"BaseStealthDamage_+%\")": 15,
+                "(Value=\"BaseMiningRewards_%\")": 25,
+                "(Value=\"BaseFellingRewards_%\")": 25,
+                "(Value=\"BaseDesertExposureResistance_+%\")": 15,
+                "(Value=\"BaseWaterConsumption_+%\")": -15
+            }
         }
     ]
 }

@@ -768,7 +768,7 @@
         },
         {
             "Name": "Drink_Cooling",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Cooling.Icon_Cooling'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Water_Chilled.T_ICON_Water_Chilled'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Drink_Cooling-ModifierName\", \"Cooling\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Drink_Cooling-ModifierDescription\", \"Water cools you.\")",
             "GrantedStats": {
@@ -784,7 +784,8 @@
                     }
                 ]
             },
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Thermos_IceWater",
@@ -797,7 +798,8 @@
                 "(Value=\"BaseStaminaRegen_+%\")": 50
             },
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Test_FoodHot",
@@ -4137,7 +4139,8 @@
                 "(Value=\"BaseInternalTemperatureModification_+\")": -1500
             },
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Thermos_WildTea_Modifier",
@@ -4152,7 +4155,8 @@
                 "(Value=\"BaseInternalTemperatureModification_+\")": 1000
             },
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Thermos_Cocoa_Modifier",
@@ -4166,7 +4170,8 @@
                 "(Value=\"BaseInternalTemperatureModification_+\")": 1000
             },
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Thermos_Coffee_Modifier",
@@ -4181,7 +4186,8 @@
                 "(Value=\"BaseInternalTemperatureModification_+\")": 1000
             },
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "BroadcastingForMap",
@@ -6563,7 +6569,7 @@
         },
         {
             "Name": "Drink_Heated",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Warming.Icon_Warming'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Water_Warm.T_ICON_Water_Warm'",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Drink_Heated-ModifierName\", \"Warming\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Drink_Heated-ModifierDescription\", \"Heated Water Warms you.\")",
             "GrantedStats": {
@@ -6579,7 +6585,8 @@
                     }
                 ]
             },
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "Fresh_Air",
@@ -6747,7 +6754,7 @@
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Volcanic_Ash-ModifierName\", \"Ash Exposure\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Volcanic_Ash-ModifierDescription\", \"The ash storm is increasing your water and oxygen consumption, and reducing your processing speed. Reduces your mobility, increases your stamina usage and damages you.\")",
             "AudioData": {
-                "RowName": "Exposure_Light"
+                "RowName": "Exposure_Dynamic"
             },
             "GrantedStats": {
                 "(Value=\"BaseStaminaConsumed_+%\")": 100,
@@ -6866,7 +6873,7 @@
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Volcanic_Heatwave-ModifierName\", \"Heatwave Exposure\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Volcanic_Heatwave-ModifierDescription\", \"The heatwave is increasing your water consumption and significantly warming you. Reduces your mobility, increases your stamina usage and damages you.\")",
             "AudioData": {
-                "RowName": "Exposure_Light"
+                "RowName": "Exposure_Dynamic"
             },
             "GrantedStats": {
                 "(Value=\"BaseStaminaConsumed_+%\")": 100,
@@ -6925,7 +6932,7 @@
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Swamp_AcidFog-ModifierName\", \"Acid Fog Exposure\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Swamp_AcidFog-ModifierDescription\", \"The acid fog storm is increasing your oxygen consumption. Reduces your mobility, increases your stamina usage and damages you and your equipment.\")",
             "AudioData": {
-                "RowName": "Exposure_Light"
+                "RowName": "Exposure_Dynamic"
             },
             "GrantedStats": {
                 "(Value=\"BaseStaminaConsumed_+%\")": 100,
@@ -7178,10 +7185,10 @@
         },
         {
             "Name": "Exposure_Conifer_Rain",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/mediumdebuff-rain3.mediumdebuff-rain3'",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/extremedebuff-rain3.extremedebuff-rain3'",
             "Type": "Debuff",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Conifer_Rain-ModifierName\", \"Rain Exposure\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Conifer_Rain-ModifierDescription\", \"Expsosure to a rain storm, reduces movement speed and cools.\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Conifer_Rain-ModifierDescription\", \"The rain storm is increasing your oxygen consumption and cooling you. Reduces your mobility, increases your stamina usage and damages you.\")",
             "AudioData": {
                 "RowName": "Exposure_Dynamic"
             },
@@ -7202,6 +7209,7 @@
             "ShouldTick": true,
             "ModifierTickRate": 3,
             "MergeType": "LongestDuration",
+            "bEffectsObjects": true,
             "bEffectsNPCs": false,
             "SaveToDatabase": false
         },
@@ -7887,13 +7895,6 @@
             "bEffectsPlayers": false
         },
         {
-            "Name": "Treated_Water",
-            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_WaterBuff.Icon_WaterBuff'",
-            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Treated_Water-ModifierName\", \"Name\")",
-            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Treated_Water-ModifierDescription\", \"Description\")",
-            "MergeType": "Stack"
-        },
-        {
             "Name": "Meta_Biolab_Inhaler_Sandworm",
             "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Biolab_Inhaler_Sandworm-ModifierName\", \"Heat Resistance Inhaler\")",
             "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Meta_Biolab_Inhaler_Sandworm-ModifierDescription\", \"Increased Heat, Hyperthermia and Fire Resistance.\")",
@@ -8378,7 +8379,8 @@
                 "(Value=\"BaseFoodModifierDuration_+%\")": 20
             },
             "MergeType": "Replace",
-            "bEffectsNPCs": false
+            "bEffectsNPCs": false,
+            "RemovedOnClick": true
         },
         {
             "Name": "GrantedAura_Beehive",
@@ -8535,6 +8537,338 @@
             "bEffectsNPCs": false,
             "bEffectsPlayers": false,
             "SaveToDatabase": false
+        },
+        {
+            "Name": "Exposure_ReducedEnergyGeneration",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Electricity.Icon_Electricity'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_ReducedEnergyGeneration-ModifierName\", \"Exposed: Reduced Energy Generation\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_ReducedEnergyGeneration-ModifierDescription\", \"Energy generation is reduced due to current weather event.\")",
+            "GrantedStats": {
+                "(Value=\"BaseEnergyNetworkModifier_+%\")": -100
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Exposure_IncreasedEnergyGeneration",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Electricity.Icon_Electricity'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_IncreasedEnergyGeneration-ModifierName\", \"Exposed: Increased Energy Generation\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_IncreasedEnergyGeneration-ModifierDescription\", \"Energy generation is increased due to current weather event.\")",
+            "GrantedStats": {
+                "(Value=\"BaseEnergyNetworkModifier_+%\")": 100
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Exposure_ReducedWaterGeneration",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Water.Icon_Water'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_ReducedWaterGeneration-ModifierName\", \"Exposed: Reduced Water Generation\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_ReducedWaterGeneration-ModifierDescription\", \"Water flow is reduced due to current weather event.\")",
+            "GrantedStats": {
+                "(Value=\"BaseWaterNetworkModifier_+%\")": -100
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Exposure_IncreasedWaterGeneration",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Water.Icon_Water'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_IncreasedWaterGeneration-ModifierName\", \"Exposed: Increased Water Generation\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_IncreasedWaterGeneration-ModifierDescription\", \"Water flow is increased due to current weather event.\")",
+            "GrantedStats": {
+                "(Value=\"BaseWaterNetworkModifier_+%\")": 100
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Exposure_Desert_Sand",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/extremedebuff-solosand3.extremedebuff-solosand3'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Desert_Sand-ModifierName\", \"Sand Exposure\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Desert_Sand-ModifierDescription\", \"The sand storm is increasing your water consumption. Reduces your mobility, increases your stamina usage and significantly damages you.\")",
+            "AudioData": {
+                "RowName": "Exposure_Dynamic"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseStaminaConsumed_+%\")": 100,
+                "(Value=\"BaseMovementSpeed_+%\")": -50,
+                "(Value=\"BaseWaterConsumption_+%\")": 100,
+                "(Value=\"BaseSprintSpeed_+%\")": -10
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_Exposure.BP_ModifierStateBehaviour_Exposure_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 29,
+                    "Deviation": 2
+                }
+            },
+            "ShouldTick": true,
+            "ModifierTickRate": 3,
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Exposure_Desert_Wind",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/extremedebuff-wind3.extremedebuff-wind3'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Desert_Wind-ModifierName\", \"Wind Exposure\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Desert_Wind-ModifierDescription\", \"The wind storm is increasing your water consumption. Significantly reduces your mobility, increases your stamina usage and damages you.\")",
+            "AudioData": {
+                "RowName": "Exposure_Dynamic"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseStaminaConsumed_+%\")": 100,
+                "(Value=\"BaseMovementSpeed_+%\")": -50,
+                "(Value=\"BaseWaterConsumption_+%\")": 100,
+                "(Value=\"BaseSprintSpeed_+%\")": -30
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_Exposure.BP_ModifierStateBehaviour_Exposure_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 23,
+                    "Deviation": 2
+                }
+            },
+            "ShouldTick": true,
+            "ModifierTickRate": 3,
+            "MergeType": "LongestDuration",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Exposure_Desert_Heatwave",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Weather/Debuffs/T_extremedebuff-weather-volcanic-Heatwave-chaos-3.T_extremedebuff-weather-volcanic-Heatwave-chaos-3'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Desert_Heatwave-ModifierName\", \"Heatwave Exposure\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Exposure_Desert_Heatwave-ModifierDescription\", \"The heatwave is increasing your water consumption and significantly warming you. Reduces your mobility, increases your stamina usage and damages you.\")",
+            "AudioData": {
+                "RowName": "Exposure_Dynamic"
+            },
+            "GrantedStats": {
+                "(Value=\"BaseStaminaConsumed_+%\")": 100,
+                "(Value=\"BaseMovementSpeed_+%\")": -50,
+                "(Value=\"BaseWaterConsumption_+%\")": 100,
+                "(Value=\"BaseCooldownDegreePerMinute_+\")": -24,
+                "(Value=\"BaseInternalTemperatureModification_+\")": 1200
+            },
+            "Behaviour": "/Game/BP/Behaviours/Modifiers/BP_ModifierStateBehaviour_Exposure.BP_ModifierStateBehaviour_Exposure_C",
+            "ModifierVariables": {
+                "Damage": {
+                    "BaseValue": 20,
+                    "Deviation": 2
+                }
+            },
+            "ShouldTick": true,
+            "ModifierTickRate": 3,
+            "MergeType": "LongestDuration",
+            "bEffectsNPCs": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "WindTurbine_Damaged",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/Icon_Tools.Icon_Tools'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"WindTurbine_Damaged-ModifierName\", \"Damaged Wind Turbine\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"WindTurbine_Damaged-ModifierDescription\", \"Energy generation is reduced due to damage caused by high speed winds or wildlife.\")",
+            "GrantedStats": {
+                "(Value=\"BaseEnergyNetworkModifier_+%\")": -100
+            },
+            "MergeType": "Replace",
+            "bEffectsObjects": true,
+            "bEffectsNPCs": false,
+            "bEffectsPlayers": false,
+            "SaveToDatabase": false
+        },
+        {
+            "Name": "Dirty_Water",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Water_Tainted.T_ICON_Water_Tainted'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Dirty_Water-ModifierName\", \"Tainted Water\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Dirty_Water-ModifierDescription\", \"Consuming dirty water has a 15% chance to cause Dysentery.\")",
+            "bEscalates": true,
+            "Escalation": {
+                "RowName": "Drink_Water"
+            },
+            "MergeType": "Stack",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Water.Dirty"
+                    }
+                ]
+            }
+        },
+        {
+            "Name": "Rain_Water",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Water_Rain.T_ICON_Water_Rain'",
+            "Type": "Debuff",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Rain_Water-ModifierName\", \"Rain Water\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Rain_Water-ModifierDescription\", \"Consuming rain water has a 5% chance to cause Dysentery.\")",
+            "bEscalates": true,
+            "Escalation": {
+                "RowName": "Drink_Water_Rain"
+            },
+            "MergeType": "Stack",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Water.Rain"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Water.Dirty"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "AutoDescription": " NONE( Water.Dirty )"
+            }
+        },
+        {
+            "Name": "Filtered_Water",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Water_Filtered.T_ICON_Water_Filtered'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Filtered_Water-ModifierName\", \"Filtered Water\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Filtered_Water-ModifierDescription\", \"Water that has been filtered through charcoal.\")",
+            "MergeType": "Stack",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Water.Filtered"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Water.Dirty"
+                    },
+                    {
+                        "TagName": "Water.Rain"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    2,
+                    0,
+                    1
+                ],
+                "AutoDescription": " NONE( Water.Dirty, Water.Rain )"
+            }
+        },
+        {
+            "Name": "Treated_Water",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Water_Treated.T_ICON_Water_Treated'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Treated_Water-ModifierName\", \"Treated Water\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Treated_Water-ModifierDescription\", \"Water that has be treated with charcoal.\")",
+            "GrantedStats": {
+                "(Value=\"BaseWaterConsumption_+%\")": -10,
+                "(Value=\"BaseStaminaConsumed_+%\")": -10
+            },
+            "MergeType": "Stack",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Water.Treated"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Water.Dirty"
+                    },
+                    {
+                        "TagName": "Water.Filtered"
+                    },
+                    {
+                        "TagName": "Water.Rain"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    3,
+                    0,
+                    1,
+                    2
+                ],
+                "AutoDescription": " NONE( Water.Dirty, Water.Filtered, Water.Rain )"
+            }
+        },
+        {
+            "Name": "Purified_Water",
+            "ModifierIcon": "Texture2D'/Game/Assets/2DArt/UI/Icons/T_ICON_Water_Purified.T_ICON_Water_Purified'",
+            "ModifierName": "NSLOCTEXT(\"D_ModifierStates\", \"Purified_Water-ModifierName\", \"Purified Water\")",
+            "ModifierDescription": "NSLOCTEXT(\"D_ModifierStates\", \"Purified_Water-ModifierDescription\", \"Water that has undergone a purification process.\")",
+            "GrantedStats": {
+                "(Value=\"BaseWaterConsumption_+%\")": -15,
+                "(Value=\"BaseStaminaConsumed_+%\")": -15
+            },
+            "MergeType": "Stack",
+            "ModifierTags": {
+                "GameplayTags": [
+                    {
+                        "TagName": "Water.Purified"
+                    }
+                ]
+            },
+            "ModifierAllowedQuery": {
+                "TagDictionary": [
+                    {
+                        "TagName": "Water.Dirty"
+                    },
+                    {
+                        "TagName": "Water.Filtered"
+                    },
+                    {
+                        "TagName": "Water.Treated"
+                    },
+                    {
+                        "TagName": "Water.Rain"
+                    }
+                ],
+                "QueryTokenStream": [
+                    0,
+                    1,
+                    3,
+                    4,
+                    0,
+                    1,
+                    2,
+                    3
+                ],
+                "AutoDescription": " NONE( Water.Dirty, Water.Filtered, Water.Treated, Water.Rain )"
+            }
         }
     ]
 }

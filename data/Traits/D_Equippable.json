@@ -6,8 +6,7 @@
         "bStackedModifiersGiveDiminishingReturns": false,
         "GlobalStat_ActorClass": "None",
         "GlobalStat_GrantedStats": {},
-        "bAppliesInAllInventories": false,
-        "bBindToAllInventoryUpdates": true
+        "bAppliesInAllInventories": false
     },
     "Rows": [
         {
@@ -73,7 +72,7 @@
             "GrantedStats": {
                 "(Value=\"BaseMovementSpeed_+%\")": 15
             },
-            "bStackedModifiersGiveDiminishingReturns": false
+            "bStackedModifiersGiveDiminishingReturns": true
         },
         {
             "Name": "Module_FallDamage",
@@ -84,7 +83,7 @@
                 "(Value=\"BaseSprainModifierDuration_+%\")": -50,
                 "(Value=\"BaseExposureResistance_+%\")": 15
             },
-            "bStackedModifiersGiveDiminishingReturns": false
+            "bStackedModifiersGiveDiminishingReturns": true
         },
         {
             "Name": "Module_Consumption",
@@ -122,7 +121,7 @@
                 "(Value=\"BaseFireDamageResistance_%\")": 75,
                 "(Value=\"BaseHeatResistance_%\")": 25
             },
-            "bStackedModifiersGiveDiminishingReturns": false
+            "bStackedModifiersGiveDiminishingReturns": true
         },
         {
             "Name": "Module_Posion_Damage_Resitance",
@@ -132,7 +131,7 @@
                 "(Value=\"BaseMaximumStamina_+\")": 50,
                 "(Value=\"BaseColdResistance_%\")": 25
             },
-            "bStackedModifiersGiveDiminishingReturns": false
+            "bStackedModifiersGiveDiminishingReturns": true
         },
         {
             "Name": "Module_Carry_Weight",
@@ -328,7 +327,7 @@
                 "(Value=\"BaseHeatResistance_%\")": 15,
                 "(Value=\"BaseColdResistance_%\")": 15
             },
-            "bStackedModifiersGiveDiminishingReturns": false
+            "bStackedModifiersGiveDiminishingReturns": true
         },
         {
             "Name": "Module_Caving",
@@ -356,7 +355,7 @@
                 "(Value=\"BaseChanceToCatchUniqueFish_+%\")": 200,
                 "(Value=\"BaseCaughtFishQuality_+%\")": 75
             },
-            "bStackedModifiersGiveDiminishingReturns": false
+            "bStackedModifiersGiveDiminishingReturns": true
         },
         {
             "Name": "Module_Wounds",
@@ -365,7 +364,7 @@
                 "(Value=\"BaseWoundResistance_%\")": 100,
                 "(Value=\"BaseDeepWoundResistance_%\")": 100
             },
-            "bStackedModifiersGiveDiminishingReturns": false
+            "bStackedModifiersGiveDiminishingReturns": true
         },
         {
             "Name": "Module_Taming",
@@ -397,13 +396,11 @@
             "Name": "Tech_Backpack",
             "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
             "GrantedStats": {
-                "(Value=\"BaseItemWear_+%\")": -50,
-                "(Value=\"BaseCraftingSpeed_+%\")": 100,
-                "(Value=\"BaseMiningCopperRewards_+%\")": 50,
-                "(Value=\"BaseMiningGoldRewards_+%\")": 50,
-                "(Value=\"BaseMiningPlatinumRewards_+%\")": 50,
-                "(Value=\"BaseAttacksCauseElectroshock_%\")": 30,
-                "(Value=\"BaseBackpackSlots_+\")": 24
+                "(Value=\"BaseCraftingSpeed_+%\")": 20,
+                "(Value=\"BaseMiningCopperRewards_+%\")": 30,
+                "(Value=\"BaseMiningGoldRewards_+%\")": 30,
+                "(Value=\"BaseMiningPlatinumRewards_+%\")": 30,
+                "(Value=\"BaseBackpackSlots_+\")": 12
             },
             "bBindToAllInventoryUpdates": false
         },
@@ -451,10 +448,8 @@
                 "(Value=\"GrantedAuraHealingAfflictions_?\")": 1,
                 "(Value=\"GrantedAuraPhysicalDamageResistance_?\")": 1,
                 "(Value=\"GrantedAuraHealthRegen_?\")": 1,
-                "(Value=\"BaseBackpackSlots_+\")": 24,
-                "(Value=\"BaseStaminaActionCost_+%\")": -25,
-                "(Value=\"BaseMovementSpeed_+%\")": 15,
-                "(Value=\"BaseHealthRestoredOnRevivedDownedPlayer_%\")": 75
+                "(Value=\"BaseBackpackSlots_+\")": 6,
+                "(Value=\"BaseStaminaActionCost_+%\")": -10
             },
             "bBindToAllInventoryUpdates": false
         },
@@ -468,22 +463,14 @@
             "bBindToAllInventoryUpdates": false
         },
         {
-            "Name": "Module_Instant_Chop_Mine",
+            "Name": "Module_Panther",
             "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
             "GrantedStats": {
-                "(Value=\"BaseChanceToFellTreeInstantly_%\")": 5,
-                "(Value=\"BaseChanceToMineVoxelInstantly_+%\")": 5
-            },
-            "bStackedModifiersGiveDiminishingReturns": false
-        },
-        {
-            "Name": "Module_MovementSpeed_2",
-            "EquippableModifier": "/Game/BP/Behaviours/Equippable/BP_EquippableModifier.BP_EquippableModifier_C",
-            "GrantedStats": {
-                "(Value=\"BaseMovementSpeed_+%\")": 15,
-                "(Value=\"BaseSprintingStaminaActionCost_+%\")": -25
-            },
-            "bStackedModifiersGiveDiminishingReturns": false
+                "(Value=\"BaseBackpackSlots_+\")": 12,
+                "(Value=\"BaseMovementSpeed_+%\")": 60,
+                "(Value=\"BaseFallDamageResistance_%\")": 100,
+                "(Value=\"BaseWeightCapacity_+\")": 50
+            }
         }
     ]
 }

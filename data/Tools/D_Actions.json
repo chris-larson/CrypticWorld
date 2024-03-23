@@ -823,18 +823,6 @@
             ]
         },
         {
-            "Name": "TeleporterHandHeld_Main",
-            "Behaviour": "BlueprintGeneratedClass'/Game/BP/Behaviours/Actionable/BP_Actionable_Teleport_Primary.BP_Actionable_Teleport_Primary_C'"
-        },
-        {
-            "Name": "TeleporterHandHeld_Secondary",
-            "Behaviour": "BlueprintGeneratedClass'/Game/BP/Behaviours/Actionable/BP_Actionable_Teleport_Secondary.BP_Actionable_Teleport_Secondary_C'"
-        },
-        {
-            "Name": "TeleporterHandHeld_Reload",
-            "Behaviour": "BlueprintGeneratedClass'/Game/BP/Behaviours/Actionable/BP_Actionable_Teleport_Reset.BP_Actionable_Teleport_Reset_C'"
-        },
-        {
             "Name": "Weapon_BOW_Scope_Aim_20x",
             "Behaviour": "BlueprintGeneratedClass'/Game/BP/Behaviours/Actionable/Firearm/BP_ActionableBehaviour_BOW_Scope_20x1.BP_ActionableBehaviour_BOW_Scope_20x1_C'"
         },
@@ -845,6 +833,18 @@
         {
             "Name": "Weapon_Scope_Aim_20x",
             "Behaviour": "BlueprintGeneratedClass'/Game/BP/Behaviours/Actionable/Firearm/BP_ActionableBehaviour_Firearm_AimController_Scope_20x.BP_ActionableBehaviour_Firearm_AimController_Scope_20x_C'"
+        },
+        {
+            "Name": "TeleporterHandHeld_Main",
+            "Behaviour": "BlueprintGeneratedClass'/Game/BP/Behaviours/Actionable/BP_Actionable_Teleport_Primary.BP_Actionable_Teleport_Primary_C'"
+        },
+        {
+            "Name": "TeleporterHandHeld_Secondary",
+            "Behaviour": "BlueprintGeneratedClass'/Game/BP/Behaviours/Actionable/BP_Actionable_Teleport_Secondary.BP_Actionable_Teleport_Secondary_C'"
+        },
+        {
+            "Name": "TeleporterHandHeld_Reload",
+            "Behaviour": "BlueprintGeneratedClass'/Game/BP/Behaviours/Actionable/BP_Actionable_Teleport_Reset.BP_Actionable_Teleport_Reset_C'"
         }
     ]
 }
